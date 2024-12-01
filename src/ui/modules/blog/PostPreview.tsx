@@ -21,7 +21,7 @@ export default function PostPreview({
 			className="group flex h-full flex-col space-y-2"
 			href={processUrl(post, { base: false })}
 		>
-			<figure className="relative aspect-video overflow-hidden bg-neutral-50">
+			<figure className="relative aspect-video overflow-hidden rounded-lg bg-neutral-50">
 				<Img
 					className="aspect-video w-full object-cover transition-[filter,transform] group-hover:scale-105 group-hover:brightness-110"
 					image={post?.metadata.image}
@@ -56,7 +56,7 @@ export default function PostPreview({
 
 			<hr />
 
-			<div className="empty:skeleton flex flex-wrap gap-x-4 text-sm">
+			<div className="flex flex-wrap gap-x-4 text-sm empty:skeleton">
 				<Date value={post?.publishDate} />
 				<Categories
 					className="flex flex-wrap gap-x-2"

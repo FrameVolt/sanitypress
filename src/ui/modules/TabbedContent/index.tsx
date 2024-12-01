@@ -48,7 +48,7 @@ export default function TabbedContent({
 							tab.image?.onBottom && 'max-md:order-last',
 						)}
 					>
-						<Img image={tab.image} />
+						<Img image={tab.image} className="rounded-lg" />
 					</figure>
 
 					<div
