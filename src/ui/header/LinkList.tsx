@@ -11,7 +11,7 @@ export default function LinkList({ link, links }: Sanity.LinkList) {
 			delay={10}
 			closeAfterNavigate
 		>
-			<summary className="flex items-center gap-1 md:px-3">
+			<summary className="flex items-center gap-1 font-bold md:px-3">
 				{link?.label}
 				<CgChevronRight className="transition-transform group-open:rotate-90 md:rotate-90" />
 			</summary>
@@ -21,7 +21,7 @@ export default function LinkList({ link, links }: Sanity.LinkList) {
 					<li key={key}>
 						<CTA
 							className={cn(
-								'hover:link inline-block py-px',
+								'hover:link inline-block py-px font-bold',
 								link.external?.startsWith('http') && 'is-external',
 							)}
 							link={link}

@@ -1,9 +1,9 @@
 export default function ({ value }: { value?: string }) {
 	if (!value) return null
 
-	const formatted = new Date(value + 'T00:00:00').toLocaleDateString('en-US', {
+	const formatted = new Date(value + 'T00:00:00').toLocaleDateString('zh-CN', {
 		year: 'numeric',
-		month: 'short',
+		month: 'long',
 		day: 'numeric',
 	})
 

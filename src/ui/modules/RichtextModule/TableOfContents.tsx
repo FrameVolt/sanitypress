@@ -53,7 +53,7 @@ export default function TableOfContents({
 			className={cn(css.root, 'accordion max-lg:bg-neutral-100 max-lg:p-3')}
 			open
 		>
-			<summary className="font-bold">Table of Contents</summary>
+			<summary className="font-bold">目录</summary>
 
 			<ol className="anim-fade-to-b mt-2 leading-tight">
 				{headings?.map(({ text, style }, key) => (
@@ -70,6 +70,7 @@ export default function TableOfContents({
 								style == 'h4' && 'pl-8',
 								style == 'h5' && 'pl-10',
 								style == 'h6' && 'pl-12',
+								'ml-2',
 							)}
 							href={`#${slug(text)}`}
 						>
