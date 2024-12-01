@@ -13,6 +13,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
+		"@giscus/react": "^3.0.0",
 		"@portabletext/to-html": "^2.0.13",
 		"@sanity/code-input": "^4.1.4",
 		"@sanity/dashboard": "^4.1.0",

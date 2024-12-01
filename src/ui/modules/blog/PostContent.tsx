@@ -7,6 +7,7 @@ import TableOfContents from '@/ui/modules/RichtextModule/TableOfContents'
 import Content from '@/ui/modules/RichtextModule/Content'
 import { cn } from '@/lib/utils'
 import css from './PostContent.module.css'
+import Comments from '@/ui/components/comments'
 
 export default function PostContent({
 	post,
@@ -54,6 +55,7 @@ export default function PostContent({
 					className={cn(css.body, 'grid max-w-screen-md')}
 				>
 					<hr />
+					<Comments />
 				</Content>
 			</div>
 		</article>
