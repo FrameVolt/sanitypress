@@ -97,7 +97,15 @@
 		background-clip: unset; /* 取消背景裁剪 */
 		color: inherit; /* 继承父元素的颜色 */
 	}
-
+	.text-logo {
+		@apply text-accent; /* 或者你想要的任何颜色 */
+		background: none; /* 移除背景渐变 */
+		background-clip: unset; /* 取消背景裁剪 */
+		color: #d85933;
+		border: 2px solid #d85933; /* 添加边框，颜色为 #d85933 */
+		border-radius: 12px; /* 设置圆角 */
+		padding: 3px 8px;
+	}
 	/* ctas, links */
 
 	._btn {

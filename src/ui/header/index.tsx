@@ -5,6 +5,7 @@ import Img from '@/ui/Img'
 import Navigation from './Navigation'
 import CTAList from '@/ui/CTAList'
 import Toggle from './Toggle'
+import RTSocialButtons from './RTSocialButtons'
 import { cn } from '@/lib/utils'
 import css from './Header.module.css'
 
@@ -36,18 +37,18 @@ export default async function Header() {
 								alt={logo?.name || title}
 							/>
 						) : (
-							<span className="text-gradient">{title}</span>
+							<span className="text-logo">{title}</span>
 						)}
 					</Link>
 				</div>
 
 				<Navigation />
 
-				<CTAList
+				{/* <CTAList
 					ctas={ctas}
 					className="[grid-area:ctas] max-md:*:w-full max-md:header-closed:hidden md:ml-auto"
-				/>
-
+				/> */}
+				<RTSocialButtons />
 				<Toggle />
 			</div>
 		</Wrapper>
