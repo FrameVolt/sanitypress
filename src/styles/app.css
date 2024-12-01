@@ -104,11 +104,11 @@
 	}
 
 	.action {
-		@apply _btn text-balance rounded border border-transparent bg-accent text-white;
+		@apply _btn text-balance rounded-full border border-transparent bg-accent text-white;
 	}
 
 	.action-outline {
-		@apply _btn text-balance rounded border border-accent/10 bg-canvas/50 to-canvas text-accent;
+		@apply _btn text-balance rounded-full border border-accent/10 bg-canvas/50 to-canvas text-accent;
 	}
 
 	.ghost {
