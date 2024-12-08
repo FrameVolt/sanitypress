@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RTCMonoBehaviour | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RTCMonoBehaviour | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="Provides some additional functions for MonoBehaviour.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_RTCMonoBehaviour.md&amp;value=---%0Auid%3A%20RTCube.Extensions.RTCMonoBehaviour%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.RTCMonoBehaviour">
+
+
+
+  <h1 id="RTCube_Extensions_RTCMonoBehaviour" data-uid="RTCube.Extensions.RTCMonoBehaviour" class="text-break">
+Class RTCMonoBehaviour  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provides some additional functions for MonoBehaviour.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public class RTCMonoBehaviour : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RTCMonoBehaviour</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="RTCube.Extensions.SingletonSpawner-1.html">SingletonSpawner&lt;T&gt;</a></div>
+      <div><a class="xref" href="RTCube.Extensions.Singleton-1.html">Singleton&lt;T&gt;</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="RTCube.Extensions.ThrowHelper.html#RTCube_Extensions_ThrowHelper_ThrowIfNull_System_Object_System_String_">ThrowHelper.ThrowIfNull(object, string)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_DestroyUniversal_" data-uid="RTCube.Extensions.RTCMonoBehaviour.DestroyUniversal*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_DestroyUniversal_UnityEngine_Object_" data-uid="RTCube.Extensions.RTCMonoBehaviour.DestroyUniversal(UnityEngine.Object)">
+  DestroyUniversal(Object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Destroys given object using either Object.Destroy, or Object.DestroyImmediate,
+depending on whether Application.isPlaying is true or not. This is useful when
+writing methods that is used by both editor tools and the game itself.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static void DestroyUniversal(UnityEngine.Object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">Object</span></dt>
+    <dd><p>The object to destroy.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_FindObjectsOfInterface_" data-uid="RTCube.Extensions.RTCMonoBehaviour.FindObjectsOfInterface*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_FindObjectsOfInterface__1" data-uid="RTCube.Extensions.RTCMonoBehaviour.FindObjectsOfInterface``1">
+  FindObjectsOfInterface&lt;TInterface&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Similar to FindObjectsOfType, except that it looks for components
+that implement a specific interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TInterface&gt; FindObjectsOfInterface&lt;TInterface&gt;() where TInterface : class</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;TInterface&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TInterface</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_FindRequiredObjectOfType_" data-uid="RTCube.Extensions.RTCMonoBehaviour.FindRequiredObjectOfType*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_FindRequiredObjectOfType__1" data-uid="RTCube.Extensions.RTCMonoBehaviour.FindRequiredObjectOfType``1">
+  FindRequiredObjectOfType&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds a component of the given type in the scene, or fail if no such component can be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static T FindRequiredObjectOfType&lt;T&gt;() where T : UnityEngine.Object</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The component of type T if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of component to find.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_RTCMonoBehaviour_FindRequiredObjectOfType__1_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Use this method when you know the object exists. You do not need to check if it exists, since
+this method does and throws an exception if it does not.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>no component of the required type exist in the scene.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_GetRequiredComponentInChildren_" data-uid="RTCube.Extensions.RTCMonoBehaviour.GetRequiredComponentInChildren*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_GetRequiredComponentInChildren__1" data-uid="RTCube.Extensions.RTCMonoBehaviour.GetRequiredComponentInChildren``1">
+  GetRequiredComponentInChildren&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a component of the given type in one of the children, or fail if no such component
+is attached to the given component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetRequiredComponentInChildren&lt;T&gt;() where T : Component</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>A component of type T attached to the given component if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of component to get.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>When the no component of the
+required type exist on any of the given components children.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_GetRequiredComponent_" data-uid="RTCube.Extensions.RTCMonoBehaviour.GetRequiredComponent*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_GetRequiredComponent__1" data-uid="RTCube.Extensions.RTCMonoBehaviour.GetRequiredComponent``1">
+  GetRequiredComponent&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a component of the given type, or fail if no such component
+is attached to the given component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetRequiredComponent&lt;T&gt;() where T : Component</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>A component of type T attached to the given component if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of component to get.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>When the no component of the
+required type exist on the given component.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_GameObject_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate(GameObject)">
+  Instantiate(GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates a prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Instantiate(GameObject prefab)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">GameObject</span></dt>
+    <dd><p>The object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>GameObject.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_GameObject_GameObject_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate(GameObject,GameObject)">
+  Instantiate(GameObject, GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates a prefab and parents it to the root.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Instantiate(GameObject prefab, GameObject root)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">GameObject</span></dt>
+    <dd><p>The prefab.</p>
+</dd>
+    <dt><code>root</code> <span class="xref">GameObject</span></dt>
+    <dd><p>The root.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>GameObject.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_GameObject_GameObject_Vector3_Quaternion_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate(GameObject,GameObject,Vector3,Quaternion)">
+  Instantiate(GameObject, GameObject, Vector3, Quaternion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates a prefab, attaches it to the given root, and
+sets the local position and rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Instantiate(GameObject prefab, GameObject root, Vector3 localPosition, Quaternion localRotation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">GameObject</span></dt>
+    <dd><p>The prefab.</p>
+</dd>
+    <dt><code>root</code> <span class="xref">GameObject</span></dt>
+    <dd><p>The root.</p>
+</dd>
+    <dt><code>localPosition</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The local position.</p>
+</dd>
+    <dt><code>localRotation</code> <span class="xref">Quaternion</span></dt>
+    <dd><p>The local rotation.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd><p>GameObject.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_GameObject_Vector3_Quaternion_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate(GameObject,Vector3,Quaternion)">
+  Instantiate(GameObject, Vector3, Quaternion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates the specified prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject Instantiate(GameObject prefab, Vector3 position, Quaternion rotation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate__1___0_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate``1(``0)">
+  Instantiate&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates the specified prefab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Instantiate&lt;T&gt;(T prefab) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">T</span></dt>
+    <dd><p>The object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate__1___0_GameObject_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate``1(``0,GameObject)">
+  Instantiate&lt;T&gt;(T, GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates a prefab and attaches it to the given root.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Instantiate&lt;T&gt;(T prefab, GameObject root) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>root</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate__1___0_GameObject_Vector3_Quaternion_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate``1(``0,GameObject,Vector3,Quaternion)">
+  Instantiate&lt;T&gt;(T, GameObject, Vector3, Quaternion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates a prefab, attaches it to the given root, and
+sets the local position and rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Instantiate&lt;T&gt;(T prefab, GameObject root, Vector3 localPosition, Quaternion localRotation) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>root</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>localPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>localRotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Instantiate_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Instantiate__1___0_Vector3_Quaternion_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Instantiate``1(``0,Vector3,Quaternion)">
+  Instantiate&lt;T&gt;(T, Vector3, Quaternion)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Instantiates an object at the
+given position in the given orientation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Instantiate&lt;T&gt;(T prefab, Vector3 position, Quaternion rotation) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prefab</code> <span class="xref">T</span></dt>
+    <dd><p>The prefab to instantiate.</p>
+</dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The position.</p>
+</dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd><p>The rotation.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>T.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Invoke_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Invoke*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Invoke_System_Action_System_Single_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Invoke(System.Action,System.Single)">
+  Invoke(Action, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public Coroutine Invoke(Action action, float time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_InvokeRepeating_" data-uid="RTCube.Extensions.RTCMonoBehaviour.InvokeRepeating*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_InvokeRepeating_System_Action_RTCube_Extensions_Algorithms_IGenerator_System_Single__" data-uid="RTCube.Extensions.RTCMonoBehaviour.InvokeRepeating(System.Action,RTCube.Extensions.Algorithms.IGenerator{System.Single})">
+  InvokeRepeating(Action, IGenerator&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public Coroutine InvokeRepeating(Action action, IGenerator&lt;float&gt; repeatTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+    <dt><code>repeatTime</code> <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html">IGenerator</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_InvokeRepeating_" data-uid="RTCube.Extensions.RTCMonoBehaviour.InvokeRepeating*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_InvokeRepeating_System_Action_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMonoBehaviour.InvokeRepeating(System.Action,System.Single,System.Single)">
+  InvokeRepeating(Action, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public Coroutine InvokeRepeating(Action action, float time, float repeatTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>repeatTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Tween_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Tween*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Tween__1___0___0_System_Single_System_Func___0___0_System_Single___0__System_Action___0__" data-uid="RTCube.Extensions.RTCMonoBehaviour.Tween``1(``0,``0,System.Single,System.Func{``0,``0,System.Single,``0},System.Action{``0})">
+  Tween&lt;T&gt;(T, T, float, Func&lt;T, T, float, T&gt;, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public Coroutine Tween&lt;T&gt;(T start, T finish, float totalTime, Func&lt;T, T, float, T&gt; lerp, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>finish</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>totalTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>lerp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;T, T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, T&gt;</dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMonoBehaviour_Tween_" data-uid="RTCube.Extensions.RTCMonoBehaviour.Tween*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMonoBehaviour_Tween__1___0___0_System_Single_System_Func___0___0_System_Single___0__System_Action___0__System_Func_System_Single__" data-uid="RTCube.Extensions.RTCMonoBehaviour.Tween``1(``0,``0,System.Single,System.Func{``0,``0,System.Single,``0},System.Action{``0},System.Func{System.Single})">
+  Tween&lt;T&gt;(T, T, float, Func&lt;T, T, float, T&gt;, Action&lt;T&gt;, Func&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public Coroutine Tween&lt;T&gt;(T start, T finish, float totalTime, Func&lt;T, T, float, T&gt; lerp, Action&lt;T&gt; action, Func&lt;float&gt; deltaTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>finish</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>totalTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>lerp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;T, T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, T&gt;</dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RTCMathf | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RTCMathf | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="Methods for additional math functions.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_RTCMathf.md&amp;value=---%0Auid%3A%20RTCube.Extensions.RTCMathf%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.RTCMathf">
+
+
+
+  <h1 id="RTCube_Extensions_RTCMathf" data-uid="RTCube.Extensions.RTCMathf" class="text-break">
+Class RTCMathf  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Methods for additional math functions.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static class RTCMathf</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RTCMathf</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="RTCube_Extensions_RTCMathf_Sqrt3" data-uid="RTCube.Extensions.RTCMathf.Sqrt3">
+  Sqrt3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float Sqrt3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_RTCMathf_Bilerp_" data-uid="RTCube.Extensions.RTCMathf.Bilerp*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Bilerp_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Bilerp(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  Bilerp(float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs bilinear interpolation between four values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static float Bilerp(float a, float b, float c, float d, float u, float v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the top-left corner.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the top-right corner.</p>
+</dd>
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the bottom-left corner.</p>
+</dd>
+    <dt><code>d</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the bottom-right corner.</p>
+</dd>
+    <dt><code>u</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The horizontal interpolation parameter (between 0 and 1).</p>
+</dd>
+    <dt><code>v</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The vertical interpolation parameter (between 0 and 1).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The interpolated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Div_" data-uid="RTCube.Extensions.RTCMathf.Div*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Div_System_Int32_System_Int32_" data-uid="RTCube.Extensions.RTCMathf.Div(System.Int32,System.Int32)">
+  Div(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use FloorDiv instead&quot;)]
+public static int Div(int m, int n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Equal_" data-uid="RTCube.Extensions.RTCMathf.Equal*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Equal_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Equal(System.Single,System.Single)">
+  Equal(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if two floating point numbers are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(float a, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The first number.</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The second number.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the two numbers are equal, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_FloorDiv_" data-uid="RTCube.Extensions.RTCMathf.FloorDiv*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_FloorDiv_System_Int32_System_Int32_" data-uid="RTCube.Extensions.RTCMathf.FloorDiv(System.Int32,System.Int32)">
+  FloorDiv(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Floor division that also work for negative m.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static int FloorDiv(int m, int n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The m.</p>
+</dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The n.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>System.Int32.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_FloorMod_" data-uid="RTCube.Extensions.RTCMathf.FloorMod*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_FloorMod_System_Int32_System_Int32_" data-uid="RTCube.Extensions.RTCMathf.FloorMod(System.Int32,System.Int32)">
+  FloorMod(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mod operator that also works for negative m.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static int FloorMod(int m, int n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The m.</p>
+</dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The n.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>System.Int32.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_FloorMod_" data-uid="RTCube.Extensions.RTCMathf.FloorMod*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_FloorMod_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.FloorMod(System.Single,System.Single)">
+  FloorMod(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mod operator that also works for negative m.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static float FloorMod(float m, float n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The m.</p>
+</dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The n.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>System.Int32.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_FloorToInt_" data-uid="RTCube.Extensions.RTCMathf.FloorToInt*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_FloorToInt_System_Single_" data-uid="RTCube.Extensions.RTCMathf.FloorToInt(System.Single)">
+  FloorToInt(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the highest integer equal to the given float.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Mathf.FloorToInt&quot;)]
+public static int FloorToInt(float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Frac_" data-uid="RTCube.Extensions.RTCMathf.Frac*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Frac_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Frac(System.Single)">
+  Frac(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the fractional part of a floating point number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Frac(float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The number to get the fractional part of.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The fractional part of the given number.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_RTCMathf_Frac_System_Single__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The result is always the number minus the number's floor.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_InRange_" data-uid="RTCube.Extensions.RTCMathf.InRange*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_InRange_System_Single_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.InRange(System.Single,System.Single,System.Single)">
+  InRange(float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the given value lies in the half-open interval specified by its endpoints, that is, whether the value
+lies in the interval <code>[closedLeft, openRight)</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool InRange(float value, float closedLeft, float openRight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value to check.</p>
+</dd>
+    <dt><code>closedLeft</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The left end of the interval.</p>
+</dd>
+    <dt><code>openRight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The right end of the interval.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the given value is equal or greater than <code>closedLeft</code> and smaller than <code>openRight</code>, <code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_InRange01_" data-uid="RTCube.Extensions.RTCMathf.InRange01*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_InRange01_System_Single_" data-uid="RTCube.Extensions.RTCMathf.InRange01(System.Single)">
+  InRange01(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the given value lies in the range [0, 1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool InRange01(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the given value is equal or greater than 0 and smaller than 1, <code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Mod_" data-uid="RTCube.Extensions.RTCMathf.Mod*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Mod_System_Int32_System_Int32_" data-uid="RTCube.Extensions.RTCMathf.Mod(System.Int32,System.Int32)">
+  Mod(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use FloorMod instead&quot;)]
+public static int Mod(int m, int n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Mod_" data-uid="RTCube.Extensions.RTCMathf.Mod*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Mod_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Mod(System.Single,System.Single)">
+  Mod(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use FloorMod instead&quot;)]
+public static float Mod(float m, float n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>m</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Sign_" data-uid="RTCube.Extensions.RTCMathf.Sign*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Sign_System_Int32_" data-uid="RTCube.Extensions.RTCMathf.Sign(System.Int32)">
+  Sign(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the sign function evaluated at the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Sign(int p)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>1 if the given value is positive, -1 if it is negative, and 0 if it is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Sign_" data-uid="RTCube.Extensions.RTCMathf.Sign*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Sign_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Sign(System.Single)">
+  Sign(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the sign function evaluated at the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Sign(float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>1 if the given value is positive, -1 if it is negative, and 0 if it is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Trilerp_" data-uid="RTCube.Extensions.RTCMathf.Trilerp*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Trilerp_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Trilerp(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  Trilerp(float, float, float, float, float, float, float, float, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs trilinear interpolation between eight values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static float Trilerp(float c000, float c100, float c010, float c110, float c001, float c101, float c011, float c111, float u, float v, float w)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>c000</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (0, 0, 0).</p>
+</dd>
+    <dt><code>c100</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (1, 0, 0).</p>
+</dd>
+    <dt><code>c010</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (0, 1, 0).</p>
+</dd>
+    <dt><code>c110</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (1, 1, 0).</p>
+</dd>
+    <dt><code>c001</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (0, 0, 1).</p>
+</dd>
+    <dt><code>c101</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (1, 0, 1).</p>
+</dd>
+    <dt><code>c011</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (0, 1, 1).</p>
+</dd>
+    <dt><code>c111</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value at the corner (1, 1, 1).</p>
+</dd>
+    <dt><code>u</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The interpolation parameter along the x-axis (between 0 and 1).</p>
+</dd>
+    <dt><code>v</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The interpolation parameter along the y-axis (between 0 and 1).</p>
+</dd>
+    <dt><code>w</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The interpolation parameter along the z-axis (between 0 and 1).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The interpolated value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Wlerp01_" data-uid="RTCube.Extensions.RTCMathf.Wlerp01*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Wlerp01_System_Single_System_Single_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Wlerp01(System.Single,System.Single,System.Single)">
+  Wlerp01(float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Linearly interpolates between two values between 0 and 1 if values wrap around from 1 back to 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Wlerp01(float v1, float v2, float t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_RTCMathf_Wlerp01_System_Single_System_Single_System_Single__examples">Examples</h4>
+  <pre><code class="lang-csharp">float angleInRad1 = 1;
+float angleInRad2 = 5;
+float revolution = Mathf.PI * 2;
+float interpolation = WLerp(angleInRad1 / revolution, angleInRad2 / revolution, 0.5f);
+
+//interpolation == (5 + 1 + Mathf.PI * 2)/2 = 3 + Mathf.PI</code></pre>
+
+
+  <h4 class="section" id="RTCube_Extensions_RTCMathf_Wlerp01_System_Single_System_Single_System_Single__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This is useful, for example, in lerping between angles.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_RTCMathf_Wrap01_" data-uid="RTCube.Extensions.RTCMathf.Wrap01*"></a>
+
+  <h3 id="RTCube_Extensions_RTCMathf_Wrap01_System_Single_" data-uid="RTCube.Extensions.RTCMathf.Wrap01(System.Single)">
+  Wrap01(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Frac instead.&quot;)]
+public static float Wrap01(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMathf.cs/#L15" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

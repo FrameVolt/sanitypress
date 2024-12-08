@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ObservedValue&lt;T&gt; | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ObservedValue&lt;T&gt; | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="Wrapper that can raise an event when a value changes.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_ObservedValue_1.md&amp;value=---%0Auid%3A%20RTCube.Extensions.ObservedValue%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.ObservedValue`1">
+
+
+
+  <h1 id="RTCube_Extensions_ObservedValue_1" data-uid="RTCube.Extensions.ObservedValue`1" class="text-break">
+Class ObservedValue&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Wrapper that can raise an event when a value changes.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ObservedValue&lt;T&gt; : ValueSnapshot&lt;T&gt;</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of value to track.</p>
+</dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="RTCube.Extensions.ValueSnapshot-1.html">ValueSnapshot</a>&lt;T&gt;</div>
+      <div><span class="xref">ObservedValue&lt;T&gt;</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="RTCube.Extensions.ValueSnapshot-1.html#RTCube_Extensions_ValueSnapshot_1_PreviousValue">ValueSnapshot&lt;T&gt;.PreviousValue</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.ValueSnapshot-1.html#RTCube_Extensions_ValueSnapshot_1_HasValue">ValueSnapshot&lt;T&gt;.HasValue</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.ValueSnapshot-1.html#RTCube_Extensions_ValueSnapshot_1_HasPreviousValue">ValueSnapshot&lt;T&gt;.HasPreviousValue</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.ValueSnapshot-1.html#RTCube_Extensions_ValueSnapshot_1_Reset">ValueSnapshot&lt;T&gt;.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.ValueSnapshot-1.html#RTCube_Extensions_ValueSnapshot_1_Reset__0_">ValueSnapshot&lt;T&gt;.Reset(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="RTCube.Extensions.ThrowHelper.html#RTCube_Extensions_ThrowHelper_ThrowIfNull_System_Object_System_String_">ThrowHelper.ThrowIfNull(object, string)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="RTCube_Extensions_ObservedValue_1__ctor_" data-uid="RTCube.Extensions.ObservedValue`1.#ctor*"></a>
+
+  <h3 id="RTCube_Extensions_ObservedValue_1__ctor_System_Collections_Generic_IEqualityComparer__0__" data-uid="RTCube.Extensions.ObservedValue`1.#ctor(System.Collections.Generic.IEqualityComparer{`0})">
+  ObservedValue(IEqualityComparer&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="RTCube.Extensions.ObservedValue-1.html">ObservedValue&lt;T&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservedValue(IEqualityComparer&lt;T&gt; comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used tp compare values. If not provided, the
+<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1.default">Default</a> will be used.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ObservedValue_1__ctor_System_Collections_Generic_IEqualityComparer__0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_OnValueChange">OnValueChange</a>will not be raised the first time <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_Value">Value</a> is being assigned.
+</p>
+<p>
+  <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_TrackingEnabled">TrackingEnabled</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> initially.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_ObservedValue_1__ctor_" data-uid="RTCube.Extensions.ObservedValue`1.#ctor*"></a>
+
+  <h3 id="RTCube_Extensions_ObservedValue_1__ctor__0_System_Collections_Generic_IEqualityComparer__0__" data-uid="RTCube.Extensions.ObservedValue`1.#ctor(`0,System.Collections.Generic.IEqualityComparer{`0})">
+  ObservedValue(T, IEqualityComparer&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="RTCube.Extensions.ObservedValue-1.html">ObservedValue&lt;T&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservedValue(T initialValue, IEqualityComparer&lt;T&gt; comparer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initialValue</code> <span class="xref">T</span></dt>
+    <dd><p>The value this change detector is initialized to.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;T&gt;</dt>
+    <dd><p>The comparer used tp compare values. If not provided, the
+<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1.default">Default</a> will be used.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ObservedValue_1__ctor__0_System_Collections_Generic_IEqualityComparer__0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_TrackingEnabled">TrackingEnabled</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> initially.</p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="RTCube_Extensions_ObservedValue_1_TrackingEnabled_" data-uid="RTCube.Extensions.ObservedValue`1.TrackingEnabled*"></a>
+
+  <h3 id="RTCube_Extensions_ObservedValue_1_TrackingEnabled" data-uid="RTCube.Extensions.ObservedValue`1.TrackingEnabled">
+  TrackingEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether tracking is enabled for this <a class="xref" href="RTCube.Extensions.ObservedValue-1.html">ObservedValue&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrackingEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ObservedValue_1_TrackingEnabled_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>, <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_OnValueChange">OnValueChange</a> will not be raised when the value of these
+<a class="xref" href="RTCube.Extensions.ObservedValue-1.html">ObservedValue&lt;T&gt;</a> changes.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_ObservedValue_1_Value_" data-uid="RTCube.Extensions.ObservedValue`1.Value*"></a>
+
+  <h3 id="RTCube_Extensions_ObservedValue_1_Value" data-uid="RTCube.Extensions.ObservedValue`1.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets and sets the value of this <a class="xref" href="RTCube.Extensions.ObservedValue-1.html">ObservedValue&lt;T&gt;</a>, and fire the
+<a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_OnValueChange">OnValueChange</a> event if the event has changed from its last value if
+<a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_TrackingEnabled">TrackingEnabled</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override T Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ObservedValue_1_Value_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If this <a class="xref" href="RTCube.Extensions.ObservedValue-1.html">ObservedValue&lt;T&gt;</a> has been constructed or reset without an initial value,
+setting the value
+for the first time will not raise the <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_OnValueChange">OnValueChange</a>.</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_ObservedValue_1_SetSilently_" data-uid="RTCube.Extensions.ObservedValue`1.SetSilently*"></a>
+
+  <h3 id="RTCube_Extensions_ObservedValue_1_SetSilently__0_" data-uid="RTCube.Extensions.ObservedValue`1.SetSilently(`0)">
+  SetSilently(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the value without notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSilently(T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_ObservedValue_1_ToString_" data-uid="RTCube.Extensions.ObservedValue`1.ToString*"></a>
+
+  <h3 id="RTCube_Extensions_ObservedValue_1_ToString" data-uid="RTCube.Extensions.ObservedValue`1.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="RTCube_Extensions_ObservedValue_1_OnValueChange" data-uid="RTCube.Extensions.ObservedValue`1.OnValueChange">
+  OnValueChange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_Value">Value</a> has changed from its previous value and <a class="xref" href="RTCube.Extensions.ObservedValue-1.html#RTCube_Extensions_ObservedValue_1_TrackingEnabled">TrackingEnabled</a> is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnValueChange</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Patterns/ObservedValue.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

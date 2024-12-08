@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Vector3List | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Vector3List | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="An InspectorList of type Vector3.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_Vector3List.md&amp;value=---%0Auid%3A%20RTCube.Extensions.Vector3List%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.Vector3List">
+
+
+
+  <h1 id="RTCube_Extensions_Vector3List" data-uid="RTCube.Extensions.Vector3List" class="text-break">
+Class Vector3List  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/InspectableData/InspectorList.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>An <code>InspectorList</code> of type <code>Vector3</code>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+[Serializable]
+public class Vector3List : InspectorList&lt;Vector3&gt;, IList&lt;Vector3&gt;, ICollection&lt;Vector3&gt;, IEnumerable&lt;Vector3&gt;, IEnumerable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="RTCube.Extensions.InspectorList.html">InspectorList</a></div>
+      <div><a class="xref" href="RTCube.Extensions.InspectorList-1.html">InspectorList</a>&lt;<span class="xref">Vector3</span>&gt;</div>
+      <div><span class="xref">Vector3List</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">Vector3</span>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<span class="xref">Vector3</span>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Vector3</span>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_GetEnumerator">InspectorList&lt;Vector3&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Add__0_">InspectorList&lt;Vector3&gt;.Add(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_AddRange_System_Collections_Generic_IEnumerable__0__">InspectorList&lt;Vector3&gt;.AddRange(IEnumerable&lt;Vector3&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Clear">InspectorList&lt;Vector3&gt;.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Contains__0_">InspectorList&lt;Vector3&gt;.Contains(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_CopyTo__0___System_Int32_">InspectorList&lt;Vector3&gt;.CopyTo(Vector3[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Remove__0_">InspectorList&lt;Vector3&gt;.Remove(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Count">InspectorList&lt;Vector3&gt;.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_IsReadOnly">InspectorList&lt;Vector3&gt;.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_IndexOf__0_">InspectorList&lt;Vector3&gt;.IndexOf(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Insert_System_Int32__0_">InspectorList&lt;Vector3&gt;.Insert(int, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_RemoveAt_System_Int32_">InspectorList&lt;Vector3&gt;.RemoveAt(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="RTCube.Extensions.InspectorList-1.html#RTCube_Extensions_InspectorList_1_Item_System_Int32_">InspectorList&lt;Vector3&gt;.this[int]</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_AddRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__">CollectionExtensions.AddRange&lt;T&gt;(ICollection&lt;T&gt;, IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__">CollectionExtensions.BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__System_Collections_Generic_IComparer___1__">CollectionExtensions.BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;, IComparer&lt;TElement&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__System_Int32_System_Int32_">CollectionExtensions.BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__System_Int32_System_Int32_System_Collections_Generic_IComparer___1__">CollectionExtensions.BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;, int, int, IComparer&lt;TElement&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_IsEmpty__1_System_Collections_Generic_ICollection___0__">CollectionExtensions.IsEmpty&lt;T&gt;(ICollection&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.PoolExtensions.html#RTCube_Extensions_PoolExtensions_AddAllAvailableFromPool__1_System_Collections_Generic_ICollection___0__RTCube_Extensions_IPool___0__">PoolExtensions.AddAllAvailableFromPool&lt;T&gt;(ICollection&lt;T&gt;, IPool&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.PoolExtensions.html#RTCube_Extensions_PoolExtensions_AddFromPool__1_System_Collections_Generic_ICollection___0__RTCube_Extensions_IPool___0__System_Int32_">PoolExtensions.AddFromPool&lt;T&gt;(ICollection&lt;T&gt;, IPool&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.PoolExtensions.html#RTCube_Extensions_PoolExtensions_TryAddFromPool__1_System_Collections_Generic_ICollection___0__RTCube_Extensions_IPool___0__System_Int32_">PoolExtensions.TryAddFromPool&lt;T&gt;(ICollection&lt;T&gt;, IPool&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_Aggregate__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__System_Func___0___0___0__">CollectionExtensions.Aggregate&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, T, T&gt;, Func&lt;T, T, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_AsCountable__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.AsCountable&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_AsList__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.AsList&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_ButFirst__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.ButFirst&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_ButLast__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.ButLast&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_FilterByType__2_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.FilterByType&lt;T, TFilter&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_HasSameElementsAs__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__">CollectionExtensions.HasSameElementsAs&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_HasSingle__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.HasSingle&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_ListToString__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.ListToString&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">CollectionExtensions.MaxBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__">CollectionExtensions.MaxBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MaxItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">CollectionExtensions.MaxItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MaxItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_Comparer___1__">CollectionExtensions.MaxItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;, Comparer&lt;TComparable&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MinBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">CollectionExtensions.MinBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MinBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__">CollectionExtensions.MinBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MinItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">CollectionExtensions.MinItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_MinItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_Comparer___1__">CollectionExtensions.MinItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;, Comparer&lt;TComparable&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_RandomItem__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.RandomItem&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_RandomItem__1_System_Collections_Generic_IEnumerable___0__RTCube_Extensions_IRandom_">CollectionExtensions.RandomItem&lt;T&gt;(IEnumerable&lt;T&gt;, IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_RotateLeft__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.RotateLeft&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_RotateRight__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.RotateRight&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_SampleRandom__1_System_Collections_Generic_IEnumerable___0__System_Int32_">CollectionExtensions.SampleRandom&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_SampleRandom__1_System_Collections_Generic_IEnumerable___0__System_Int32_RTCube_Extensions_IRandom_">CollectionExtensions.SampleRandom&lt;T&gt;(IEnumerable&lt;T&gt;, int, IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_SlidingWindow__1_System_Collections_Generic_IEnumerable___0__System_Int32_">CollectionExtensions.SlidingWindow&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TakeHalf__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.TakeHalf&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TakeLast__1_System_Collections_Generic_IEnumerable___0__System_Int32_">CollectionExtensions.TakeLast&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TryFirst__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0__">CollectionExtensions.TryFirst&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, bool&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TryFirst__1_System_Collections_Generic_IEnumerable___0____0__">CollectionExtensions.TryFirst&lt;T&gt;(IEnumerable&lt;T&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TryLast__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0__">CollectionExtensions.TryLast&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, bool&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TryLast__1_System_Collections_Generic_IEnumerable___0____0__">CollectionExtensions.TryLast&lt;T&gt;(IEnumerable&lt;T&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_TrySingle__1_System_Collections_Generic_IEnumerable___0____0__">CollectionExtensions.TrySingle&lt;T&gt;(IEnumerable&lt;T&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_WithIndices__1_System_Collections_Generic_IEnumerable___0__">CollectionExtensions.WithIndices&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Combinatorial.html#RTCube_Extensions_Algorithms_Combinatorial_Combinations__1_System_Collections_Generic_IEnumerable___0__System_Int32_">Combinatorial.Combinations&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Combinatorial.html#RTCube_Extensions_Algorithms_Combinatorial_Partitions__1_System_Collections_Generic_IEnumerable___0__">Combinatorial.Partitions&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Combinatorial.html#RTCube_Extensions_Algorithms_Combinatorial_Permutations__1_System_Collections_Generic_IEnumerable___0__">Combinatorial.Permutations&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Combinatorial.html#RTCube_Extensions_Algorithms_Combinatorial_PowerSet__1_System_Collections_Generic_IEnumerable___0__">Combinatorial.PowerSet&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Combinatorial.html#RTCube_Extensions_Algorithms_Combinatorial_Tuples__1_System_Collections_Generic_IEnumerable___0__">Combinatorial.Tuples&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_FillWithDefault__1_System_Collections_Generic_IList___0__">CollectionExtensions.FillWithDefault&lt;T&gt;(IList&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_Fill__1_System_Collections_Generic_IList___0____0_">CollectionExtensions.Fill&lt;T&gt;(IList&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_Shuffle__1_System_Collections_Generic_IList___0__">CollectionExtensions.Shuffle&lt;T&gt;(IList&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.CollectionExtensions.html#RTCube_Extensions_Algorithms_CollectionExtensions_Shuffle__1_System_Collections_Generic_IList___0__RTCube_Extensions_IRandom_">CollectionExtensions.Shuffle&lt;T&gt;(IList&lt;T&gt;, IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.ThrowHelper.html#RTCube_Extensions_ThrowHelper_ThrowIfNull_System_Object_System_String_">ThrowHelper.ThrowIfNull(object, string)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/InspectableData/InspectorList.cs/#L203" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

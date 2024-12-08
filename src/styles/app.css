@@ -102,8 +102,8 @@
 		background: none; /* 移除背景渐变 */
 		background-clip: unset; /* 取消背景裁剪 */
 		color: #d85933;
-		border: 2px solid #d85933; /* 添加边框，颜色为 #d85933 */
-		border-radius: 12px; /* 设置圆角 */
+		border: 3px solid #d85933; /* 添加边框，颜色为 #d85933 */
+		border-radius: 0 12px 0 0; /* 设置圆角 */
 		padding: 3px 8px;
 	}
 	/* ctas, links */
@@ -278,7 +278,15 @@
 		width: 100vw;
 		margin-inline: calc(50% - 50vw);
 	}
-
+	.rtcbutton {
+		border-radius: 9999px;
+		font-style: normal;
+		font-weight: 700;
+		@apply _h text-xl;
+		padding-left: 1.2rem /* 24px */;
+		padding-right: 1.2rem /* 24px */;
+		color: #d85933;
+	}
 	.no-scrollbar {
 		-webkit-overflow-scrolling: touch;
 		scrollbar-width: none;

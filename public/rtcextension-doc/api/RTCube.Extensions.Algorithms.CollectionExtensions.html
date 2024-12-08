@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CollectionExtensions | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CollectionExtensions | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="This class provides useful extension methods for collections, mostly IEnumerable.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_Algorithms_CollectionExtensions.md&amp;value=---%0Auid%3A%20RTCube.Extensions.Algorithms.CollectionExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.Algorithms.CollectionExtensions">
+
+
+
+  <h1 id="RTCube_Extensions_Algorithms_CollectionExtensions" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions" class="text-break">
+Class CollectionExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a>.<a class="xref" href="RTCube.Extensions.Algorithms.html">Algorithms</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>This class provides useful extension methods for collections, mostly IEnumerable.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static class CollectionExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CollectionExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_AddRange_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AddRange*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_AddRange__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AddRange``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.IEnumerable{``0})">
+  AddRange&lt;T&gt;(ICollection&lt;T&gt;, IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add all elements of other to the given source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRange&lt;T&gt;(this ICollection&lt;T&gt; collection, IEnumerable&lt;T&gt; other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_Aggregate_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Aggregate*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_Aggregate__1_System_Collections_Generic_IEnumerable___0__System_Func___0___0___0__System_Func___0___0___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Aggregate``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0},System.Func{``0,``0,``0})">
+  Aggregate&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, T, T&gt;, Func&lt;T, T, T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L711"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Aggregates the source collection using two different aggregation functions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static (T, T) Aggregate&lt;T&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, T, T&gt; aggregator1, Func&lt;T, T, T&gt; aggregator2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection to aggregate.</p>
+</dd>
+    <dt><code>aggregator1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T, T, T&gt;</dt>
+    <dd><p>The first aggregation function.</p>
+</dd>
+    <dt><code>aggregator2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T, T, T&gt;</dt>
+    <dd><p>The second aggregation function.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(T, T)</dt>
+    <dd><p>A tuple containing the results of the two aggregation functions.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_AreSequencesEqual_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AreSequencesEqual*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_AreSequencesEqual__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AreSequencesEqual``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">
+  AreSequencesEqual&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L568"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks whether the sequences are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool AreSequencesEqual&lt;T&gt;(IEnumerable&lt;T&gt; s1, IEnumerable&lt;T&gt; s2) where T : IComparable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>s2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the number of elements in the sequences are equal,
+and all the elements compared item by item are equal (using the CompareTo method),
+<code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_AsCountable_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AsCountable*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_AsCountable__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AsCountable``1(System.Collections.Generic.IEnumerable{``0})">
+  AsCountable&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the source to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IReadOnlyCollection&lt;T&gt; AsCountable&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;T&gt;</dt>
+    <dd><p>The source as an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_Algorithms_CollectionExtensions_AsCountable__1_System_Collections_Generic_IEnumerable___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Enumerate <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> using this to get a better solution for when you need only
+a count in addition to enumeration. If the source is already an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection&lt;T&gt;</a>, it is
+casted, otherwise it is converted to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection&lt;T&gt;</a>. The resulting collection is
+enumerates multiple times, so if you want to avoid this e numerate the collection to something else.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_AsList_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AsList*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_AsList__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.AsList``1(System.Collections.Generic.IEnumerable{``0})">
+  AsList&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L684"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the source to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IReadOnlyList&lt;T&gt; AsList&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;T&gt;</dt>
+    <dd><p>The source as an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_Algorithms_CollectionExtensions_AsList__1_System_Collections_Generic_IEnumerable___0___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If the source is already an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList&lt;T&gt;</a>, it is
+casted, otherwise it is converted to an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> using <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.enumerable.tolist">ToList&lt;TSource&gt;(IEnumerable&lt;TSource&gt;)</a>.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch``2(System.Collections.Generic.ICollection{``0},``1,System.Func{``0,``1})">
+  BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find an element in a collection by binary searching.
+This requires the collection to be sorted on the values returned by getSubElement
+This will compare some derived property of the elements in the collection, rather than the elements
+themselves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;TCollection, TElement&gt;(this ICollection&lt;TCollection&gt; source, TElement value, Func&lt;TCollection, TElement&gt; getSubElement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TCollection&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TElement</span></dt>
+    <dd></dd>
+    <dt><code>getSubElement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TCollection, TElement&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TCollection</code></dt>
+    <dd></dd>
+    <dt><code>TElement</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch``2(System.Collections.Generic.ICollection{``0},``1,System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;, IComparer&lt;TElement&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L476"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find an element in a collection by binary searching.
+This requires the collection to be sorted on the values returned by getSubElement
+This will compare some derived property of the elements in the collection, rather than the elements
+themselves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;TCollection, TElement&gt;(this ICollection&lt;TCollection&gt; source, TElement value, Func&lt;TCollection, TElement&gt; getSubElement, IComparer&lt;TElement&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TCollection&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TElement</span></dt>
+    <dd></dd>
+    <dt><code>getSubElement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TCollection, TElement&gt;</dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TElement&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TCollection</code></dt>
+    <dd></dd>
+    <dt><code>TElement</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__System_Int32_System_Int32_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch``2(System.Collections.Generic.ICollection{``0},``1,System.Func{``0,``1},System.Int32,System.Int32)">
+  BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find an element in a collection by binary searching.
+This requires the collection to be sorted on the values returned by getSubElement
+This will compare some derived property of the elements in the collection, rather than the elements
+themselves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;TCollection, TElement&gt;(this ICollection&lt;TCollection&gt; source, TElement value, Func&lt;TCollection, TElement&gt; getSubElement, int index, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TCollection&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TElement</span></dt>
+    <dd></dd>
+    <dt><code>getSubElement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TCollection, TElement&gt;</dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TCollection</code></dt>
+    <dd></dd>
+    <dt><code>TElement</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_BinarySearch__2_System_Collections_Generic_ICollection___0____1_System_Func___0___1__System_Int32_System_Int32_System_Collections_Generic_IComparer___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.BinarySearch``2(System.Collections.Generic.ICollection{``0},``1,System.Func{``0,``1},System.Int32,System.Int32,System.Collections.Generic.IComparer{``1})">
+  BinarySearch&lt;TCollection, TElement&gt;(ICollection&lt;TCollection&gt;, TElement, Func&lt;TCollection, TElement&gt;, int, int, IComparer&lt;TElement&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L503"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find an element in a collection by binary searching.
+This requires the collection to be sorted on the values returned by getSubElement
+This will compare some derived property of the elements in the collection, rather than the elements
+themselves.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BinarySearch&lt;TCollection, TElement&gt;(this ICollection&lt;TCollection&gt; source, TElement value, Func&lt;TCollection, TElement&gt; getSubElement, int index, int length, IComparer&lt;TElement&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TCollection&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">TElement</span></dt>
+    <dd></dd>
+    <dt><code>getSubElement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TCollection, TElement&gt;</dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TElement&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TCollection</code></dt>
+    <dd></dd>
+    <dt><code>TElement</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_ButFirst_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.ButFirst*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_ButFirst__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.ButFirst``1(System.Collections.Generic.IEnumerable{``0})">
+  ButFirst&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns an enumerable of all elements of the given list	but the first,
+keeping them in order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; ButFirst&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_ButLast_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.ButLast*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_ButLast__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.ButLast``1(System.Collections.Generic.IEnumerable{``0})">
+  ButLast&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns an enumerable of all elements in the given
+list but the last, keeping them in order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; ButLast&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_FillWithDefault_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.FillWithDefault*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_FillWithDefault__1_System_Collections_Generic_IList___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.FillWithDefault``1(System.Collections.Generic.IList{``0})">
+  FillWithDefault&lt;T&gt;(IList&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L430"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fills the list with the default value of the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static void FillWithDefault&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p>The list to fill.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of items in the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_Fill_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Fill*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_Fill__1_System_Collections_Generic_IList___0____0_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Fill``1(System.Collections.Generic.IList{``0},``0)">
+  Fill&lt;T&gt;(IList&lt;T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fills the list with the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static void Fill&lt;T&gt;(this IList&lt;T&gt; list, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p>The list to fill.</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The value to fill the list with.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of items in the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_FilterByType_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.FilterByType*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_FilterByType__2_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.FilterByType``2(System.Collections.Generic.IEnumerable{``0})">
+  FilterByType&lt;T, TFilter&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns all elements of the source which are of FilterType.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TFilter&gt; FilterByType&lt;T, TFilter&gt;(this IEnumerable&lt;T&gt; source) where T : class where TFilter : class, T</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TFilter&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TFilter</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_HasSameElementsAs_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.HasSameElementsAs*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_HasSameElementsAs__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.HasSameElementsAs``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})">
+  HasSameElementsAs&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L695"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if two lists have the same elements, regardless of their order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool HasSameElementsAs&lt;T&gt;(this IEnumerable&lt;T&gt; first, IEnumerable&lt;T&gt; second)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>first</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The first collection to compare.</p>
+</dd>
+    <dt><code>second</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The second collection to compare.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if both collections contain the same elements, false otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the lists.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_HasSingle_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.HasSingle*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_HasSingle__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.HasSingle``1(System.Collections.Generic.IEnumerable{``0})">
+  HasSingle&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L764"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the source collection contains exactly one element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool HasSingle&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the source collection contains exactly one element, false otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_IsEmpty_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.IsEmpty*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_IsEmpty__1_System_Collections_Generic_ICollection___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.IsEmpty``1(System.Collections.Generic.ICollection{``0})">
+  IsEmpty&lt;T&gt;(ICollection&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns whether this source is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty&lt;T&gt;(this ICollection&lt;T&gt; collection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collection</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_ListToString_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.ListToString*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_ListToString__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.ListToString``1(System.Collections.Generic.IEnumerable{``0})">
+  ListToString&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a pretty string representation of the given list. The resulting string looks something like
+<code>[a, b, c]</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ListToString&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  MaxBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the minimum element in the source as scored by its projection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource MaxBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; selector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  MaxBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the minimum element in the source as scored by the given function applied to a projection on the elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource MaxBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; selector, IComparer&lt;TKey&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxItemsBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxItemsBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxItemsBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  MaxItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L807"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the maximum elements in the source collection based on a selector function.
+This overload uses the default comparer for the type TComparable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;T&gt; MaxItemsBy&lt;T, TComparable&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, TComparable&gt; selector) where TComparable : IComparable&lt;TComparable&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TComparable&gt;</dt>
+    <dd><p>A function to extract a comparable value from each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> that contains the maximum elements in the source collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+    <dt><code>TComparable</code></dt>
+    <dd><p>The type of the value returned by the selector function.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxItemsBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxItemsBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MaxItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_Comparer___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MaxItemsBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.Comparer{``1})">
+  MaxItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;, Comparer&lt;TComparable&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L827"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the maximum elements in the source collection based on a selector function and a specified comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;T&gt; MaxItemsBy&lt;T, TComparable&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, TComparable&gt; selector, Comparer&lt;TComparable&gt; comparer) where TComparable : IComparable&lt;TComparable&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TComparable&gt;</dt>
+    <dd><p>A function to extract a comparable value from each element.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1">Comparer</a>&lt;TComparable&gt;</dt>
+    <dd><p>The comparer to use when comparing elements.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> that contains the maximum elements in the source collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+    <dt><code>TComparable</code></dt>
+    <dd><p>The type of the value returned by the selector function.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MinBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MinBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  MinBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the minimum element in the source as scored by its projection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource MinBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; selector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MinBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MinBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_IComparer___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})">
+  MinBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;, IComparer&lt;TKey&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the minimum element in the source as scored by the given function applied to a projection on the elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TSource MinBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; selector, IComparer&lt;TKey&gt; comparer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TKey&gt;</dt>
+    <dd></dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icomparer-1">IComparer</a>&lt;TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TSource</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MinItemsBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinItemsBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MinItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinItemsBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
+  MinItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L877"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum elements in the source collection based on a selector function.
+This overload uses the default comparer for the type TComparable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;T&gt; MinItemsBy&lt;T, TComparable&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, TComparable&gt; selector) where TComparable : IComparable&lt;TComparable&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TComparable&gt;</dt>
+    <dd><p>A function to extract a comparable value from each element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> that contains the minimum elements in the source collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+    <dt><code>TComparable</code></dt>
+    <dd><p>The type of the value returned by the selector function.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MinItemsBy_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinItemsBy*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MinItemsBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Collections_Generic_Comparer___1__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinItemsBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.Comparer{``1})">
+  MinItemsBy&lt;T, TComparable&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TComparable&gt;, Comparer&lt;TComparable&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L898"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the minimum elements in the source collection based on a selector function and a specified comparer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;T&gt; MinItemsBy&lt;T, TComparable&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, TComparable&gt; selector, Comparer&lt;TComparable&gt; comparer) where TComparable : IComparable&lt;TComparable&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection.</p>
+</dd>
+    <dt><code>selector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TComparable&gt;</dt>
+    <dd><p>A function to extract a comparable value from each element.</p>
+</dd>
+    <dt><code>comparer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.comparer-1">Comparer</a>&lt;TComparable&gt;</dt>
+    <dd><p>The comparer to use when comparing elements.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> that contains the minimum elements in the source collection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+    <dt><code>TComparable</code></dt>
+    <dd><p>The type of the value returned by the selector function.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MinMax_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinMax*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MinMax_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinMax(System.Collections.Generic.IEnumerable{System.Int32})">
+  MinMax(IEnumerable&lt;int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L736"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the minimum and maximum values in a collection of integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static (int, int) MinMax(this IEnumerable&lt;int&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>The source collection to find the minimum and maximum values in.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</dt>
+    <dd><p>A tuple containing the minimum and maximum values.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_MinMax_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinMax*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_MinMax_System_Collections_Generic_IEnumerable_System_Single__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.MinMax(System.Collections.Generic.IEnumerable{System.Single})">
+  MinMax(IEnumerable&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L727"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds the minimum and maximum values in a collection of floats.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static (float, float) MinMax(this IEnumerable&lt;float&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>The source collection to find the minimum and maximum values in.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.single-.min">min</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.single-.max">max</a>)</dt>
+    <dd><p>A tuple containing the minimum and maximum values.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_RandomItem_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RandomItem*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_RandomItem__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RandomItem``1(System.Collections.Generic.IEnumerable{``0})">
+  RandomItem&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random element from a source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T RandomItem&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The list.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>An item randomly selected from the source.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of items generated from the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_RandomItem_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RandomItem*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_RandomItem__1_System_Collections_Generic_IEnumerable___0__RTCube_Extensions_IRandom_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RandomItem``1(System.Collections.Generic.IEnumerable{``0},RTCube.Extensions.IRandom)">
+  RandomItem&lt;T&gt;(IEnumerable&lt;T&gt;, IRandom)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random element from a source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T RandomItem&lt;T&gt;(this IEnumerable&lt;T&gt; source, IRandom random)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The list.</p>
+</dd>
+    <dt><code>random</code> <a class="xref" href="RTCube.Extensions.IRandom.html">IRandom</a></dt>
+    <dd><p>The random generator to use.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>An item randomly selected from the source.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of items generated from the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_RemoveAllBut_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RemoveAllBut*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_RemoveAllBut__1_System_Collections_Generic_List___0__System_Predicate___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RemoveAllBut``1(System.Collections.Generic.List{``0},System.Predicate{``0})">
+  RemoveAllBut&lt;T&gt;(List&lt;T&gt;, Predicate&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes all the elements in the list that does not satisfy the predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveAllBut&lt;T&gt;(this List&lt;T&gt; source, Predicate&lt;T&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd><p>The list to remove elements from.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd><p>The predicate used to filter elements.
+All elements that don't satisfy the predicate will be matched.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_RotateLeft_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RotateLeft*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_RotateLeft__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RotateLeft``1(System.Collections.Generic.IEnumerable{``0})">
+  RotateLeft&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns an enumerable with elements in order, but the first element is moved to the end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; RotateLeft&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_RotateRight_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RotateRight*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_RotateRight__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.RotateRight``1(System.Collections.Generic.IEnumerable{``0})">
+  RotateRight&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns an enumerable with elements in order, but the last element is moved to the front.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; RotateRight&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_SampleRandom_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.SampleRandom*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_SampleRandom__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.SampleRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+  SampleRandom&lt;T&gt;(IEnumerable&lt;T&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random sample from a source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; SampleRandom&lt;T&gt;(this IEnumerable&lt;T&gt; source, int sampleCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source from which to sample.</p>
+</dd>
+    <dt><code>sampleCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of samples to return.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>Generates a ransom subset from a given source.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements of the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_SampleRandom_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.SampleRandom*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_SampleRandom__1_System_Collections_Generic_IEnumerable___0__System_Int32_RTCube_Extensions_IRandom_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.SampleRandom``1(System.Collections.Generic.IEnumerable{``0},System.Int32,RTCube.Extensions.IRandom)">
+  SampleRandom&lt;T&gt;(IEnumerable&lt;T&gt;, int, IRandom)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a random sample from a source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; SampleRandom&lt;T&gt;(this IEnumerable&lt;T&gt; source, int sampleCount, IRandom random)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source from which to sample.</p>
+</dd>
+    <dt><code>sampleCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of samples to return.</p>
+</dd>
+    <dt><code>random</code> <a class="xref" href="RTCube.Extensions.IRandom.html">IRandom</a></dt>
+    <dd><p>The random generator to use.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>Generates a ransom subset from a given source.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements of the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_Shuffle_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Shuffle*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_Shuffle__1_System_Collections_Generic_IList___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Shuffle``1(System.Collections.Generic.IList{``0})">
+  Shuffle&lt;T&gt;(IList&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shuffles a list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this IList&lt;T&gt; list)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p>The list to shuffle.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of items in the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_Shuffle_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Shuffle*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_Shuffle__1_System_Collections_Generic_IList___0__RTCube_Extensions_IRandom_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.Shuffle``1(System.Collections.Generic.IList{``0},RTCube.Extensions.IRandom)">
+  Shuffle&lt;T&gt;(IList&lt;T&gt;, IRandom)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shuffles a list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shuffle&lt;T&gt;(this IList&lt;T&gt; list, IRandom random)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</dt>
+    <dd><p>The list to shuffle.</p>
+</dd>
+    <dt><code>random</code> <a class="xref" href="RTCube.Extensions.IRandom.html">IRandom</a></dt>
+    <dd><p>The random generator to use.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of items in the list.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_SlidingWindow_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.SlidingWindow*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_SlidingWindow__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.SlidingWindow``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+  SlidingWindow&lt;T&gt;(IEnumerable&lt;T&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gives sliding window of the given size over the source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IReadOnlyBuffer&lt;T&gt;&gt; SlidingWindow&lt;T&gt;(this IEnumerable&lt;T&gt; source, int windowSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to slide over.</p>
+</dd>
+    <dt><code>windowSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The size of the window. Must be positive.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="RTCube.Extensions.Algorithms.IReadOnlyBuffer-1.html">IReadOnlyBuffer</a>&lt;T&gt;&gt;</dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> of buffers of the given size. Each item represents a window at a
+certain position. Only full windows are returned. Suppose the source is the sequence 1, 2, 3, 4, 5. If we run
+the sliding window width a size of three, we get the sequences (1, 2, 3), (2, 3, 4), (3, 4, 5).</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>The <code class="paramref">windowSize</code> is not positive.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TakeHalf_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TakeHalf*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TakeHalf__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TakeHalf``1(System.Collections.Generic.IEnumerable{``0})">
+  TakeHalf&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first half of elements from a source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;T&gt; TakeHalf&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TakeLast_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TakeLast*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TakeLast__1_System_Collections_Generic_IEnumerable___0__System_Int32_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TakeLast``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+  TakeLast&lt;T&gt;(IEnumerable&lt;T&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the last n elements from a source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;T&gt; TakeLast&lt;T&gt;(this IEnumerable&lt;T&gt; source, int n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TryFirst_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryFirst*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TryFirst__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryFirst``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0@)">
+  TryFirst&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, bool&gt;, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L633"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try to get the first element of a sequence that satisfies a predicate, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool TryFirst&lt;T&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, bool&gt; predicate, out T first)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to get the first element from.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The predicate to test the elements against.</p>
+</dd>
+    <dt><code>first</code> <span class="xref">T</span></dt>
+    <dd><p>The first element of the source that satisfies the predicate, if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the source is not empty, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TryFirst_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryFirst*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TryFirst__1_System_Collections_Generic_IEnumerable___0____0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryFirst``1(System.Collections.Generic.IEnumerable{``0},``0@)">
+  TryFirst&lt;T&gt;(IEnumerable&lt;T&gt;, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L600"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try to get the first element of a sequence, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool TryFirst&lt;T&gt;(this IEnumerable&lt;T&gt; source, out T first)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to get the first element from.</p>
+</dd>
+    <dt><code>first</code> <span class="xref">T</span></dt>
+    <dd><p>The first element of the source, if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the source is not empty, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TryLast_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryLast*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TryLast__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean____0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryLast``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},``0@)">
+  TryLast&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, bool&gt;, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L650"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try to get the last element of a sequence that satisfies a predicate, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool TryLast&lt;T&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, bool&gt; predicate, out T last)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to get the last element from.</p>
+</dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The predicate to test the elements against.</p>
+</dd>
+    <dt><code>last</code> <span class="xref">T</span></dt>
+    <dd><p>The last element of the source that satisfies the predicate, if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the source is not empty, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TryLast_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryLast*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TryLast__1_System_Collections_Generic_IEnumerable___0____0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TryLast``1(System.Collections.Generic.IEnumerable{``0},``0@)">
+  TryLast&lt;T&gt;(IEnumerable&lt;T&gt;, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L616"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Try to get the last element of a sequence, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool TryLast&lt;T&gt;(this IEnumerable&lt;T&gt; source, out T last)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source to get the last element from.</p>
+</dd>
+    <dt><code>last</code> <span class="xref">T</span></dt>
+    <dd><p>The last element of the source, if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the source is not empty, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_TrySingle_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TrySingle*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_TrySingle__1_System_Collections_Generic_IEnumerable___0____0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.TrySingle``1(System.Collections.Generic.IEnumerable{``0},``0@)">
+  TrySingle&lt;T&gt;(IEnumerable&lt;T&gt;, out T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L774"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tries to retrieve the single element from the source collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static bool TrySingle&lt;T&gt;(this IEnumerable&lt;T&gt; source, out T result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection to retrieve the element from.</p>
+</dd>
+    <dt><code>result</code> <span class="xref">T</span></dt>
+    <dd><p>The single element from the source collection, if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the source collection contains exactly one element, false otherwise. If true, the single element is assigned to the out parameter 'result'.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the source collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_Algorithms_CollectionExtensions_WithIndices_" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.WithIndices*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_CollectionExtensions_WithIndices__1_System_Collections_Generic_IEnumerable___0__" data-uid="RTCube.Extensions.Algorithms.CollectionExtensions.WithIndices``1(System.Collections.Generic.IEnumerable{``0})">
+  WithIndices&lt;T&gt;(IEnumerable&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L746"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterates over a collection, yielding each element along with its index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static IEnumerable&lt;(T item, int index)&gt; WithIndices&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd><p>The source collection to iterate over.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;(T <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,system.int32-.item">item</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple---0,system.int32-.index">index</a>)&gt;</dt>
+    <dd><p>An enumerable of tuples containing the elements and their indices.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of elements in the collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/CollectionExtensions.cs/#L17" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

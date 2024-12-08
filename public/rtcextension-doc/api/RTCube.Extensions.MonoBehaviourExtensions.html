@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MonoBehaviourExtensions | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MonoBehaviourExtensions | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="Provides useful extension methods for MonoBehaviours.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_MonoBehaviourExtensions.md&amp;value=---%0Auid%3A%20RTCube.Extensions.MonoBehaviourExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.MonoBehaviourExtensions">
+
+
+
+  <h1 id="RTCube_Extensions_MonoBehaviourExtensions" data-uid="RTCube.Extensions.MonoBehaviourExtensions" class="text-break">
+Class MonoBehaviourExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provides useful extension methods for MonoBehaviours.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static class MonoBehaviourExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MonoBehaviourExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_CancelInvoke_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.CancelInvoke*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_CancelInvoke_MonoBehaviour_System_Action_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.CancelInvoke(MonoBehaviour,System.Action)">
+  CancelInvoke(MonoBehaviour, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancels the action if it was scheduled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The new Invoke is implemented as a coroutine. Store and cancel the coroutine instead.&quot;)]
+public static void CancelInvoke(this MonoBehaviour _1, Action _2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>_1</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_Clone_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Clone*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_Clone__1___0_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Clone``1(``0)">
+  Clone&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clones an object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Clone&lt;T&gt;(this T obj) where T : MonoBehaviour</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_Clone_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Clone*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_Clone__1___0_System_Int32_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Clone``1(``0,System.Int32)">
+  Clone&lt;T&gt;(T, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clones an object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; Clone&lt;T&gt;(this T obj, int count) where T : MonoBehaviour</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_FindChild_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.FindChild*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_FindChild_Component_System_String_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.FindChild(Component,System.String)">
+  FindChild(Component, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject FindChild(this Component component, string childName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd></dd>
+    <dt><code>childName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_FindChild_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.FindChild*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_FindChild_Component_System_String_System_Boolean_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.FindChild(Component,System.String,System.Boolean)">
+  FindChild(Component, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject FindChild(this Component component, string childName, bool recursive)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd></dd>
+    <dt><code>childName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>recursive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_GetComponentInChildrenAlways_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetComponentInChildrenAlways*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_GetComponentInChildrenAlways__1_Component_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetComponentInChildrenAlways``1(Component)">
+  GetComponentInChildrenAlways&lt;T&gt;(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds a component of the type T in on the same object, or on a child down the hierarchy. This method also works
+in the editor and when the game object is inactive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static T GetComponentInChildrenAlways&lt;T&gt;(this Component component) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_GetComponentsInChildrenAlways_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetComponentsInChildrenAlways*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_GetComponentsInChildrenAlways__1_Component_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetComponentsInChildrenAlways``1(Component)">
+  GetComponentsInChildrenAlways&lt;T&gt;(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finds all components of the type T on the same object and on a children down the hierarchy. This method also works
+in the editor and when the game object is inactive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static T[] GetComponentsInChildrenAlways&lt;T&gt;(this Component component) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt>T[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_GetInterfaceComponent_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetInterfaceComponent*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_GetInterfaceComponent__1_Component_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetInterfaceComponent``1(Component)">
+  GetInterfaceComponent&lt;TInterface&gt;(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L563"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an attached component that implements the interface of the type parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TInterface GetInterfaceComponent&lt;TInterface&gt;(this Component component) where TInterface : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd><p>The component to get the interface component from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TInterface</span></dt>
+    <dd><p>TInterface.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TInterface</code></dt>
+    <dd><p>The type of the t interface.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_GetRequiredComponentInChildren_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetRequiredComponentInChildren*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_GetRequiredComponentInChildren__1_Component_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetRequiredComponentInChildren``1(Component)">
+  GetRequiredComponentInChildren&lt;T&gt;(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L544"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a component of the given type in one of the children, or fail if no such component
+is attached to the given component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetRequiredComponentInChildren&lt;T&gt;(this Component component) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd><p>The component to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>A component of type T attached to the given component if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of component to get.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>When the no component of the
+required type exist on any of the given components children.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_GetRequiredComponent_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetRequiredComponent*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_GetRequiredComponent__1_Component_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.GetRequiredComponent``1(Component)">
+  GetRequiredComponent&lt;T&gt;(Component)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L520"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a component of the given type, or fail if no such component
+is attached to the given component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetRequiredComponent&lt;T&gt;(this Component component) where T : Component</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>component</code> <span class="xref">Component</span></dt>
+    <dd><p>The component to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>A component of type T attached to the given component if it exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The type of component to get.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>When the no component of the
+required type exist on the given component.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_Invoke_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Invoke*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_Invoke_MonoBehaviour_System_Action_System_Single_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Invoke(MonoBehaviour,System.Action,System.Single)">
+  Invoke(MonoBehaviour, Action, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes the given action after the given amount of time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Coroutine Invoke(this MonoBehaviour monoBehaviour, Action action, float time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>monoBehaviour</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_InvokeRepeating_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.InvokeRepeating*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_InvokeRepeating_MonoBehaviour_System_Action_RTCube_Extensions_Algorithms_IGenerator_System_Single__" data-uid="RTCube.Extensions.MonoBehaviourExtensions.InvokeRepeating(MonoBehaviour,System.Action,RTCube.Extensions.Algorithms.IGenerator{System.Single})">
+  InvokeRepeating(MonoBehaviour, Action, IGenerator&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes the given action after the given amount of time, and repeats the
+action after every repeatTime seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Coroutine InvokeRepeating(this MonoBehaviour monoBehaviour, Action action, IGenerator&lt;float&gt; repeatTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>monoBehaviour</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+    <dt><code>repeatTime</code> <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html">IGenerator</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_InvokeRepeating_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.InvokeRepeating*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_InvokeRepeating_MonoBehaviour_System_Action_System_Single_System_Single_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.InvokeRepeating(MonoBehaviour,System.Action,System.Single,System.Single)">
+  InvokeRepeating(MonoBehaviour, Action, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes the given action after the given amount of time, and repeats the
+action after every repeatTime seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Coroutine InvokeRepeating(this MonoBehaviour monoBehaviour, Action action, float time, float repeatTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>monoBehaviour</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>repeatTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_IsInvoking_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.IsInvoking*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_IsInvoking_MonoBehaviour_System_Action_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.IsInvoking(MonoBehaviour,System.Action)">
+  IsInvoking(MonoBehaviour, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns whether an invoke is pending on an action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The new Invoke is implemented as a coroutine. Store and cancel the coroutine instead.&quot;)]
+public static bool IsInvoking(this MonoBehaviour _1, Action _2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>_1</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_Tween_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Tween*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_Tween__1_MonoBehaviour___0___0_System_Single_System_Func___0___0_System_Single___0__System_Action___0__" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Tween``1(MonoBehaviour,``0,``0,System.Single,System.Func{``0,``0,System.Single,``0},System.Action{``0})">
+  Tween&lt;T&gt;(MonoBehaviour, T, T, float, Func&lt;T, T, float, T&gt;, Action&lt;T&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Coroutine Tween&lt;T&gt;(this MonoBehaviour monoBehaviour, T start, T finish, float totalTime, Func&lt;T, T, float, T&gt; lerp, Action&lt;T&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>monoBehaviour</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>start</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>finish</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>totalTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>lerp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;T, T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, T&gt;</dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_MonoBehaviourExtensions_Tween_" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Tween*"></a>
+
+  <h3 id="RTCube_Extensions_MonoBehaviourExtensions_Tween__1_MonoBehaviour___0___0_System_Single_System_Func___0___0_System_Single___0__System_Action___0__System_Func_System_Single__" data-uid="RTCube.Extensions.MonoBehaviourExtensions.Tween``1(MonoBehaviour,``0,``0,System.Single,System.Func{``0,``0,System.Single,``0},System.Action{``0},System.Func{System.Single})">
+  Tween&lt;T&gt;(MonoBehaviour, T, T, float, Func&lt;T, T, float, T&gt;, Action&lt;T&gt;, Func&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Coroutine Tween&lt;T&gt;(this MonoBehaviour monoBehaviour, T start, T finish, float totalTime, Func&lt;T, T, float, T&gt; lerp, Action&lt;T&gt; action, Func&lt;float&gt; deltaTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>monoBehaviour</code> <span class="xref">MonoBehaviour</span></dt>
+    <dd></dd>
+    <dt><code>start</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>finish</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>totalTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>lerp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;T, T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, T&gt;</dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Coroutine</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/RTCMonoBehaviour.cs/#L274" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

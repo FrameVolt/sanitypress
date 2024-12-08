@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ValidationAttribute | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ValidationAttribute | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="The base class for properties that can be validated.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_ValidationAttribute.md&amp;value=---%0Auid%3A%20RTCube.Extensions.ValidationAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.ValidationAttribute">
+
+
+
+  <h1 id="RTCube_Extensions_ValidationAttribute" data-uid="RTCube.Extensions.ValidationAttribute" class="text-break">
+Class ValidationAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>The base class for properties that can be validated.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Field)]
+[Version(1, 0, 0)]
+public abstract class ValidationAttribute : PropertyAttribute</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ValidationAttribute</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="RTCube.Extensions.ValidateMatchRegularExpressionAttribute.html">ValidateMatchRegularExpressionAttribute</a></div>
+      <div><a class="xref" href="RTCube.Extensions.ValidateNotEmptyAttribute.html">ValidateNotEmptyAttribute</a></div>
+      <div><a class="xref" href="RTCube.Extensions.ValidateNotNegativeAttribute.html">ValidateNotNegativeAttribute</a></div>
+      <div><a class="xref" href="RTCube.Extensions.ValidateNotNullAttribute.html">ValidateNotNullAttribute</a></div>
+      <div><a class="xref" href="RTCube.Extensions.ValidatePositiveAttribute.html">ValidatePositiveAttribute</a></div>
+      <div><a class="xref" href="RTCube.Extensions.ValidateRangeAttribute.html">ValidateRangeAttribute</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="RTCube.Extensions.ThrowHelper.html#RTCube_Extensions_ThrowHelper_ThrowIfNull_System_Object_System_String_">ThrowHelper.ThrowIfNull(object, string)</a>
+  </div>
+  </dd></dl>
+
+
+
+  <h2 id="RTCube_Extensions_ValidationAttribute_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The default behaviour is determined by booleans in <a class="xref" href="RTCube.Extensions.PropertyDrawerData.html">PropertyDrawerData</a>: <a class="xref" href="RTCube.Extensions.PropertyDrawerData.html#RTCube_Extensions_PropertyDrawerData_ForceValue">ForceValue</a>,
+<a class="xref" href="RTCube.Extensions.PropertyDrawerData.html#RTCube_Extensions_PropertyDrawerData_WarnInConsole">WarnInConsole</a>, and <a class="xref" href="RTCube.Extensions.PropertyDrawerData.html#RTCube_Extensions_PropertyDrawerData_WarnInInspector">WarnInInspector</a>, but can be overriden
+for an attribute by setting the properties define in this attribute: <a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_ForceValue">ForceValue</a>, <a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_WarnInConsole">WarnInConsole</a>,
+and <a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_WarnInInspector">WarnInInspector</a>. And since these properties are public, they can be set by the attribute user
+to override them for a specific field.</p>
+<p>This attribute may be applied to multiple types. It is up to subclasses to use the right
+implement the methods correctly for the types that apply.</p>
+<p>Custom <span class="xref">System.SerializableAttribute</span> types are not supported, and an error will
+be thrown in the editor when you apply this attribute to a field of a custom type.</p>
+<p>See <a href="../content/PropertyDrawers.md">Property Drawers</a> for more details.</p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="RTCube_Extensions_ValidationAttribute_Color_" data-uid="RTCube.Extensions.ValidationAttribute.Color*"></a>
+
+  <h3 id="RTCube_Extensions_ValidationAttribute_Color" data-uid="RTCube.Extensions.ValidationAttribute.Color">
+  Color
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets and sets the color to use when drawing the property in the inspector when the value is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Color { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ValidationAttribute_Color_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Only effective when not being forced, and <a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_WarnInInspector">WarnInInspector</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_ValidationAttribute_ForceValue_" data-uid="RTCube.Extensions.ValidationAttribute.ForceValue*"></a>
+
+  <h3 id="RTCube_Extensions_ValidationAttribute_ForceValue" data-uid="RTCube.Extensions.ValidationAttribute.ForceValue">
+  ForceValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets and sets whether to force the value to be valid, provided the attributes allows it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ForceValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_ValidationAttribute_HexColor_" data-uid="RTCube.Extensions.ValidationAttribute.HexColor*"></a>
+
+  <h3 id="RTCube_Extensions_ValidationAttribute_HexColor" data-uid="RTCube.Extensions.ValidationAttribute.HexColor">
+  HexColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets and sets the color to use when drawing the property in the inspector when the value is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HexColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ValidationAttribute_HexColor_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Only effective when not being forced, and <a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_WarnInInspector">WarnInInspector</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>.</p>
+<p>See <a class="xref" href="RTCube.Extensions.ColorExtensions.html#RTCube_Extensions_ColorExtensions_ParseHex_System_String_">ParseHex(string)</a> for details on the format of the string.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_ValidationAttribute_Message_" data-uid="RTCube.Extensions.ValidationAttribute.Message*"></a>
+
+  <h3 id="RTCube_Extensions_ValidationAttribute_Message" data-uid="RTCube.Extensions.ValidationAttribute.Message">
+  Message
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets and set the message to display in the inspector or console when the value is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ValidationAttribute_Message_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Only effective when not being forced, and <a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_WarnInConsole">WarnInConsole</a> or
+<a class="xref" href="RTCube.Extensions.ValidationAttribute.html#RTCube_Extensions_ValidationAttribute_WarnInInspector">WarnInInspector</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_ValidationAttribute_WarnInConsole_" data-uid="RTCube.Extensions.ValidationAttribute.WarnInConsole*"></a>
+
+  <h3 id="RTCube_Extensions_ValidationAttribute_WarnInConsole" data-uid="RTCube.Extensions.ValidationAttribute.WarnInConsole">
+  WarnInConsole
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets and sets whether to warn in the console when a value is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WarnInConsole { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ValidationAttribute_WarnInConsole_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Only effective when not being forced.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_ValidationAttribute_WarnInInspector_" data-uid="RTCube.Extensions.ValidationAttribute.WarnInInspector*"></a>
+
+  <h3 id="RTCube_Extensions_ValidationAttribute_WarnInInspector" data-uid="RTCube.Extensions.ValidationAttribute.WarnInInspector">
+  WarnInInspector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets and sets whether to warn in the inspector when a value is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WarnInInspector { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_ValidationAttribute_WarnInInspector_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Only effective when not being forced.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Attributes/ValidationAttribute.cs/#L25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

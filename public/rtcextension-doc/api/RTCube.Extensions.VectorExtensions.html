@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VectorExtensions | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VectorExtensions | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="Contains useful extension methods for vectors.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_VectorExtensions.md&amp;value=---%0Auid%3A%20RTCube.Extensions.VectorExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.VectorExtensions">
+
+
+
+  <h1 id="RTCube_Extensions_VectorExtensions" data-uid="RTCube.Extensions.VectorExtensions" class="text-break">
+Class VectorExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Contains useful extension methods for vectors.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static class VectorExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">VectorExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_VectorExtensions_ClampMagnitude_" data-uid="RTCube.Extensions.VectorExtensions.ClampMagnitude*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_ClampMagnitude_Vector4_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.ClampMagnitude(Vector4,System.Single)">
+  ClampMagnitude(Vector4, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L582"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clamps the vector to the given magnitude.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 ClampMagnitude(this Vector4 vector, float maxLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector4</span></dt>
+    <dd><p>The vector to clamp.</p>
+</dd>
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The maximum length of the vector.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4</span></dt>
+    <dd><p>The clamped vector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_VectorExtensions_ClampMagnitude_Vector4_System_Single__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Unity provides <code>ClampMagnitude</code> for Vector2, and Vector3: Vector2.ClampMagnitude
+and Vector3.ClampMagnitude. This method provides the same functionality for Vector4.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Dot_" data-uid="RTCube.Extensions.VectorExtensions.Dot*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Dot_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Dot(Vector2,Vector2)">
+  Dot(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Equivalent to Vector2.Dot(v1, v2).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Dot(this Vector2 vector1, Vector2 vector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector1</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The first operand.</p>
+</dd>
+    <dt><code>vector2</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The second operand.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Vector2.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Dot_" data-uid="RTCube.Extensions.VectorExtensions.Dot*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Dot_Vector3_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.Dot(Vector3,Vector3)">
+  Dot(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Equivalent to Vector3.Dot(v1, v2).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Dot(this Vector3 vector1, Vector3 vector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector1</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The first operand.</p>
+</dd>
+    <dt><code>vector2</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The second operand.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Vector3.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Dot_" data-uid="RTCube.Extensions.VectorExtensions.Dot*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Dot_Vector4_Vector4_" data-uid="RTCube.Extensions.VectorExtensions.Dot(Vector4,Vector4)">
+  Dot(Vector4, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Equivalent to Vector4.Dot(v1, v2).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Dot(this Vector4 vector1, Vector4 vector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector1</code> <span class="xref">Vector4</span></dt>
+    <dd><p>The first operand.</p>
+</dd>
+    <dt><code>vector2</code> <span class="xref">Vector4</span></dt>
+    <dd><p>The second operand.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Vector4.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardDiv_" data-uid="RTCube.Extensions.VectorExtensions.HadamardDiv*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardDiv_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.HadamardDiv(Vector2,Vector2)">
+  HadamardDiv(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L516"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Divides one vector component by another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 HadamardDiv(this Vector2 thisVector, Vector2 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>otherVector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardDiv_" data-uid="RTCube.Extensions.VectorExtensions.HadamardDiv*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardDiv_Vector3_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.HadamardDiv(Vector3,Vector3)">
+  HadamardDiv(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L537"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Divides one vector component by another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 HadamardDiv(this Vector3 thisVector, Vector3 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>otherVector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardDiv_" data-uid="RTCube.Extensions.VectorExtensions.HadamardDiv*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardDiv_Vector4_Vector4_" data-uid="RTCube.Extensions.VectorExtensions.HadamardDiv(Vector4,Vector4)">
+  HadamardDiv(Vector4, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L562"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Divides one vector component by another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector4 HadamardDiv(this Vector4 thisVector, Vector4 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+    <dt><code>otherVector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardMod_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMod*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardMod_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMod(Vector2,Vector2)">
+  HadamardMod(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies component by component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 HadamardMod(this Vector2 thisVector, Vector2 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The this vector.</p>
+</dd>
+    <dt><code>otherVector</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The other vector.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardMod_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMod*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardMod_Vector3_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMod(Vector3,Vector3)">
+  HadamardMod(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L480"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies component by component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 HadamardMod(this Vector3 thisVector, Vector3 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The this vector.</p>
+</dd>
+    <dt><code>otherVector</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The other vector.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardMod_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMod*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardMod_Vector4_Vector4_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMod(Vector4,Vector4)">
+  HadamardMod(Vector4, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L494"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies component by component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector4 HadamardMod(this Vector4 thisVector, Vector4 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector4</span></dt>
+    <dd><p>The this vector.</p>
+</dd>
+    <dt><code>otherVector</code> <span class="xref">Vector4</span></dt>
+    <dd><p>The other vector.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardMul_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMul*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardMul_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMul(Vector2,Vector2)">
+  HadamardMul(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L507"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies one vector componentwise by another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 HadamardMul(this Vector2 thisVector, Vector2 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>otherVector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardMul_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMul*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardMul_Vector3_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMul(Vector3,Vector3)">
+  HadamardMul(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L525"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies one vector component by another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 HadamardMul(this Vector3 thisVector, Vector3 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>otherVector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_HadamardMul_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMul*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_HadamardMul_Vector4_Vector4_" data-uid="RTCube.Extensions.VectorExtensions.HadamardMul(Vector4,Vector4)">
+  HadamardMul(Vector4, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L549"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplies one vector component by another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector4 HadamardMul(this Vector4 thisVector, Vector4 otherVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thisVector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+    <dt><code>otherVector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Perp_" data-uid="RTCube.Extensions.VectorExtensions.Perp*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Perp_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Perp(Vector2)">
+  Perp(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the vector rotated 90 degrees counter-clockwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Perp(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_VectorExtensions_Perp_Vector2__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The returned vector is always perpendicular to the given vector. </p>
+<p>The perp dot product can be calculated using this: <code>var perpDotProduct = Vector2.Dot(v1.Perp(), v2);</code></p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_PerpDot_" data-uid="RTCube.Extensions.VectorExtensions.PerpDot*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_PerpDot_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.PerpDot(Vector2,Vector2)">
+  PerpDot(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Equivalent to Vector2.Dot(v1.Perp(), v2).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float PerpDot(this Vector2 vector1, Vector2 vector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector1</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The first operand.</p>
+</dd>
+    <dt><code>vector2</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The second operand.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Vector2.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_PerpXY_" data-uid="RTCube.Extensions.VectorExtensions.PerpXY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_PerpXY_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.PerpXY(Vector3)">
+  PerpXY(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L457"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Turns the vector 90 degrees anticlockwise as viewed from the front (keeping the z coordinate intact).
+Equivalent to <pre><code class="lang-csharp">v.To2DXY().Perp().To3DXY(v.z);</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 PerpXY(this Vector3 v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_PerpXZ_" data-uid="RTCube.Extensions.VectorExtensions.PerpXZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_PerpXZ_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.PerpXZ(Vector3)">
+  PerpXZ(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Turns the vector 90 degrees anticlockwise as viewed from the top (keeping the y coordinate intact).
+Equivalent to <pre><code class="lang-csharp">v.To2DXZ().Perp().To3DXZ(v.y);</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 PerpXZ(this Vector3 v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Proj_" data-uid="RTCube.Extensions.VectorExtensions.Proj*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Proj_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Proj(Vector2,Vector2)">
+  Proj(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the projection of this vector onto the given base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Proj(this Vector2 vector, Vector2 baseVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>baseVector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Proj_" data-uid="RTCube.Extensions.VectorExtensions.Proj*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Proj_Vector3_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.Proj(Vector3,Vector3)">
+  Proj(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the projection of this vector onto the given base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Proj(this Vector3 vector, Vector3 baseVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>baseVector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Proj_" data-uid="RTCube.Extensions.VectorExtensions.Proj*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Proj_Vector4_Vector4_" data-uid="RTCube.Extensions.VectorExtensions.Proj(Vector4,Vector4)">
+  Proj(Vector4, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the projection of this vector onto the given base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 Proj(this Vector4 vector, Vector4 baseVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+    <dt><code>baseVector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_ReflectAboutX_" data-uid="RTCube.Extensions.VectorExtensions.ReflectAboutX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_ReflectAboutX_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.ReflectAboutX(Vector2)">
+  ReflectAboutX(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reflects the vector about x-axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 ReflectAboutX(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_ReflectAboutY_" data-uid="RTCube.Extensions.VectorExtensions.ReflectAboutY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_ReflectAboutY_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.ReflectAboutY(Vector2)">
+  ReflectAboutY(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reflects the vector about y-axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 ReflectAboutY(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rej_" data-uid="RTCube.Extensions.VectorExtensions.Rej*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rej_Vector2_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Rej(Vector2,Vector2)">
+  Rej(Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the rejection of this vector onto the given base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rej(this Vector2 vector, Vector2 baseVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>baseVector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_VectorExtensions_Rej_Vector2_Vector2__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The sum of a vector's projection and rejection on a base is equal to
+the original vector.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rej_" data-uid="RTCube.Extensions.VectorExtensions.Rej*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rej_Vector3_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.Rej(Vector3,Vector3)">
+  Rej(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the rejection of this vector onto the given base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Rej(this Vector3 vector, Vector3 baseVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>baseVector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="RTCube_Extensions_VectorExtensions_Rej_Vector3_Vector3__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The sum of a vector's projection and rejection on a base is equal to
+the original vector.</p>
+</div>
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rej_" data-uid="RTCube.Extensions.VectorExtensions.Rej*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rej_Vector4_Vector4_" data-uid="RTCube.Extensions.VectorExtensions.Rej(Vector4,Vector4)">
+  Rej(Vector4, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L438"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the rejection of this vector onto the given base.
+The sum of a vector's projection and rejection on a base is
+equal to the original vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 Rej(this Vector4 vector, Vector4 baseVector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+    <dt><code>baseVector</code> <span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rotate_" data-uid="RTCube.Extensions.VectorExtensions.Rotate*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rotate_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.Rotate(Vector2,System.Single)">
+  Rotate(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotates a vector by a given angle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rotate(this Vector2 vector, float angleInDeg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd><p>vector to rotate</p>
+</dd>
+    <dt><code>angleInDeg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>angle in degrees.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd><p>Rotated vector.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rotate180_" data-uid="RTCube.Extensions.VectorExtensions.Rotate180*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rotate180_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Rotate180(Vector2)">
+  Rotate180(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotates a vector by 180 degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rotate180(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rotate270_" data-uid="RTCube.Extensions.VectorExtensions.Rotate270*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rotate270_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Rotate270(Vector2)">
+  Rotate270(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotates a vector by 270 degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rotate270(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_Rotate90_" data-uid="RTCube.Extensions.VectorExtensions.Rotate90*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_Rotate90_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.Rotate90(Vector2)">
+  Rotate90(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotates a vector by 90 degrees.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rotate90(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_RotateAround_" data-uid="RTCube.Extensions.VectorExtensions.RotateAround*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_RotateAround_Vector2_System_Single_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.RotateAround(Vector2,System.Single,Vector2)">
+  RotateAround(Vector2, float, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotates a vector by a given angle around a given point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 RotateAround(this Vector2 vector, float angleInDeg, Vector2 axisPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>angleInDeg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>axisPosition</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To2DXY_" data-uid="RTCube.Extensions.VectorExtensions.To2DXY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To2DXY_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.To2DXY(Vector3)">
+  To2DXY(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 3D vector to a 2D vector taking the x and y coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 To2DXY(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To2DXZ_" data-uid="RTCube.Extensions.VectorExtensions.To2DXZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To2DXZ_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.To2DXZ(Vector3)">
+  To2DXZ(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 3D vector to a 2D vector taking the x and z coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 To2DXZ(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To2DYZ_" data-uid="RTCube.Extensions.VectorExtensions.To2DYZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To2DYZ_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.To2DYZ(Vector3)">
+  To2DYZ(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 3D vector to a 2D vector taking the y and z coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 To2DYZ(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To3DXY_" data-uid="RTCube.Extensions.VectorExtensions.To3DXY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To3DXY_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.To3DXY(Vector2)">
+  To3DXY(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 2D vector to a 3D vector using the vector
+for the x and y coordinates, and 0 for the z coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 To3DXY(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To3DXY_" data-uid="RTCube.Extensions.VectorExtensions.To3DXY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To3DXY_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.To3DXY(Vector2,System.Single)">
+  To3DXY(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 2D vector to a 3D vector using the vector
+for the x and y coordinates, and the given value for the z coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 To3DXY(this Vector2 vector, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To3DXZ_" data-uid="RTCube.Extensions.VectorExtensions.To3DXZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To3DXZ_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.To3DXZ(Vector2)">
+  To3DXZ(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 2D vector to a 3D vector using the vector
+for the x and z coordinates, and 0 for the y coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 To3DXZ(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To3DXZ_" data-uid="RTCube.Extensions.VectorExtensions.To3DXZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To3DXZ_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.To3DXZ(Vector2,System.Single)">
+  To3DXZ(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 2D vector to a 3D vector using the vector
+for the x and z coordinates, and the given value for the y coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 To3DXZ(this Vector2 vector, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To3DYZ_" data-uid="RTCube.Extensions.VectorExtensions.To3DYZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To3DYZ_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.To3DYZ(Vector2)">
+  To3DYZ(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 2D vector to a 3D vector using the vector
+for the y and z coordinates, and 0 for the x coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 To3DYZ(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_To3DYZ_" data-uid="RTCube.Extensions.VectorExtensions.To3DYZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_To3DYZ_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.To3DYZ(Vector2,System.Single)">
+  To3DYZ(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a 2D vector to a 3D vector using the vector
+for the y and z coordinates, and the given value for the x coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 To3DYZ(this Vector2 vector, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithIncX_" data-uid="RTCube.Extensions.VectorExtensions.WithIncX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithIncX_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithIncX(Vector2,System.Single)">
+  WithIncX(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of the vector with the x-coordinate incremented
+with the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WithIncX(this Vector2 vector, float xInc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>xInc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithIncX_" data-uid="RTCube.Extensions.VectorExtensions.WithIncX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithIncX_Vector3_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithIncX(Vector3,System.Single)">
+  WithIncX(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of the vector with the x-coordinate incremented
+with the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 WithIncX(this Vector3 vector, float xInc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>xInc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithIncY_" data-uid="RTCube.Extensions.VectorExtensions.WithIncY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithIncY_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithIncY(Vector2,System.Single)">
+  WithIncY(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of the vector with the y-coordinate incremented
+with the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WithIncY(this Vector2 vector, float yInc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>yInc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithIncY_" data-uid="RTCube.Extensions.VectorExtensions.WithIncY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithIncY_Vector3_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithIncY(Vector3,System.Single)">
+  WithIncY(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of the vector with the y-coordinate incremented
+with the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 WithIncY(this Vector3 vector, float yInc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>yInc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithIncZ_" data-uid="RTCube.Extensions.VectorExtensions.WithIncZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithIncZ_Vector3_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithIncZ(Vector3,System.Single)">
+  WithIncZ(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of the vector with the z-coordinate incremented
+with the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 WithIncZ(this Vector3 vector, float zInc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>zInc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithX_" data-uid="RTCube.Extensions.VectorExtensions.WithX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithX_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithX(Vector2,System.Single)">
+  WithX(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of this vector with the given x-coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 WithX(this Vector2 vector, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithX_" data-uid="RTCube.Extensions.VectorExtensions.WithX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithX_Vector3_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithX(Vector3,System.Single)">
+  WithX(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of this vector with the given x-coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 WithX(this Vector3 vector, float x)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithY_" data-uid="RTCube.Extensions.VectorExtensions.WithY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithY_Vector2_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithY(Vector2,System.Single)">
+  WithY(Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of this vector with the given y-coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector2 WithY(this Vector2 vector, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithY_" data-uid="RTCube.Extensions.VectorExtensions.WithY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithY_Vector3_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithY(Vector3,System.Single)">
+  WithY(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of this vector with the given y-coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 WithY(this Vector3 vector, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_WithZ_" data-uid="RTCube.Extensions.VectorExtensions.WithZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_WithZ_Vector3_System_Single_" data-uid="RTCube.Extensions.VectorExtensions.WithZ(Vector3,System.Single)">
+  WithZ(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a copy of this vector with the given z-coordinate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 WithZ(this Vector3 vector, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_XZY_" data-uid="RTCube.Extensions.VectorExtensions.XZY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_XZY_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.XZY(Vector3)">
+  XZY(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new vector by permuting the given vector's coordinates in the order XZY.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 XZY(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_YX_" data-uid="RTCube.Extensions.VectorExtensions.YX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_YX_Vector2_" data-uid="RTCube.Extensions.VectorExtensions.YX(Vector2)">
+  YX(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Swaps the x and y coordinates of the vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 YX(this Vector2 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_YXZ_" data-uid="RTCube.Extensions.VectorExtensions.YXZ*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_YXZ_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.YXZ(Vector3)">
+  YXZ(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new vector by permuting the given vector's coordinates in the order YXZ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 YXZ(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_YZX_" data-uid="RTCube.Extensions.VectorExtensions.YZX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_YZX_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.YZX(Vector3)">
+  YZX(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new vector by permuting the given vector's coordinates in the order YZX.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 YZX(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_ZXY_" data-uid="RTCube.Extensions.VectorExtensions.ZXY*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_ZXY_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.ZXY(Vector3)">
+  ZXY(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new vector by permuting the given vector's coordinates in the order ZXY.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ZXY(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RTCube_Extensions_VectorExtensions_ZYX_" data-uid="RTCube.Extensions.VectorExtensions.ZYX*"></a>
+
+  <h3 id="RTCube_Extensions_VectorExtensions_ZYX_Vector3_" data-uid="RTCube.Extensions.VectorExtensions.ZYX(Vector3)">
+  ZYX(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new vector by permuting the given vector's coordinates in the order ZYX.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public static Vector3 ZYX(this Vector3 vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/UnityExtensions/VectorExtensions.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

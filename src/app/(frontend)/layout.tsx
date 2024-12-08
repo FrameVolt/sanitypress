@@ -9,8 +9,13 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import '@/styles/app.css'
 import { Inter } from 'next/font/google'
+import { CacheProvider } from '@emotion/react'
+import createEmotionCache from '@/ui/components/createEmotionCache'
+import { ThemeProvider } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
 
 const inter = Inter({ subsets: ['latin'] })
+const clientSideEmotionCache = createEmotionCache()
 
 export default async function RootLayout({
 	children,

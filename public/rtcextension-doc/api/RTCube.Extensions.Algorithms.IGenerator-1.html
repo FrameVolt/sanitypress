@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IGenerator&lt;TResult&gt; | RTCubeExtensions 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IGenerator&lt;TResult&gt; | RTCubeExtensions 文档 ">
+      
+      <meta name="description" content="All generic generators implement this interface.">
+      <link rel="icon" href="../resources/images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RuntimeCube/RTCubeExtensions/new/main/apiSpec/new?filename=RTCube_Extensions_Algorithms_IGenerator_1.md&amp;value=---%0Auid%3A%20RTCube.Extensions.Algorithms.IGenerator%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="/">
+            <img id="logo" class="svg" src="../resources/images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RTCube.Extensions.Algorithms.IGenerator`1">
+
+
+
+  <h1 id="RTCube_Extensions_Algorithms_IGenerator_1" data-uid="RTCube.Extensions.Algorithms.IGenerator`1" class="text-break">
+Interface IGenerator&lt;TResult&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/Generators.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RTCube.html">RTCube</a>.<a class="xref" href="RTCube.Extensions.html">Extensions</a>.<a class="xref" href="RTCube.Extensions.Algorithms.html">Algorithms</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>All generic generators implement this interface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Version(1, 0, 0)]
+public interface IGenerator&lt;out TResult&gt; : IGenerator</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TResult</code></dt>
+    <dd><p>The type of the elements the generator generates.</p>
+</dd>
+  </dl>
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_MoveNext">IGenerator.MoveNext()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Cast__1_RTCube_Extensions_Algorithms_IGenerator_">Generator.Cast&lt;TResult&gt;(IGenerator)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_OfType__1_RTCube_Extensions_Algorithms_IGenerator_">Generator.OfType&lt;TResult&gt;(IGenerator)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Aggregate__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0___0___0__">Generator.Aggregate&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Aggregate__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0___0___0____0_">Generator.Aggregate&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, TSource, TSource&gt;, TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Aggregate__2_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___1___0___1____1_">Generator.Aggregate&lt;TSource, TResult&gt;(IGenerator&lt;TSource&gt;, Func&lt;TResult, TSource, TResult&gt;, TResult)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Apply__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Action___0__">Generator.Apply&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Action&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Group__1_RTCube_Extensions_Algorithms_IGenerator___0__RTCube_Extensions_Algorithms_IGenerator_System_Int32__">Generator.Group&lt;TSource&gt;(IGenerator&lt;TSource&gt;, IGenerator&lt;int&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Group__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_">Generator.Group&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_InterpolateDither__1_RTCube_Extensions_Algorithms_IGenerator___0__RTCube_Extensions_Algorithms_IGenerator_System_Int32__">Generator.InterpolateDither&lt;TSource&gt;(IGenerator&lt;TSource&gt;, IGenerator&lt;int&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Interpolate__1_RTCube_Extensions_Algorithms_IGenerator___0__RTCube_Extensions_Algorithms_IGenerator_System_Int32__System_Func___0___0_System_Single___0__">Generator.Interpolate&lt;TSource&gt;(IGenerator&lt;TSource&gt;, IGenerator&lt;int&gt;, Func&lt;TSource, TSource, float, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Interpolate__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_System_Func___0___0_System_Single___0__">Generator.Interpolate&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int, Func&lt;TSource, TSource, float, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Log__1_RTCube_Extensions_Algorithms_IGenerator___0__">Generator.Log&lt;TSource&gt;(IGenerator&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Log__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Action___0__">Generator.Log&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Action&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_MoveNext__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_">Generator.MoveNext&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_NextWhile__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0_System_Boolean__">Generator.NextWhile&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Next__1_RTCube_Extensions_Algorithms_IGenerator___0__">Generator.Next&lt;TSource&gt;(IGenerator&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Next__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_">Generator.Next&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Pad__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Collections_Generic_IEnumerable___0__">Generator.Pad&lt;TSource&gt;(IGenerator&lt;TSource&gt;, IEnumerable&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Pad__1_RTCube_Extensions_Algorithms_IGenerator___0____0_System_Int32_">Generator.Pad&lt;TSource&gt;(IGenerator&lt;TSource&gt;, TSource, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_RepeatEach__1_RTCube_Extensions_Algorithms_IGenerator___0__RTCube_Extensions_Algorithms_IGenerator_System_Int32__">Generator.RepeatEach&lt;TSource&gt;(IGenerator&lt;TSource&gt;, IGenerator&lt;int&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_RepeatEach__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_">Generator.RepeatEach&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_SelectMany__2_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0_System_Collections_Generic_IEnumerable___1___">Generator.SelectMany&lt;TSource, TResult&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, IEnumerable&lt;TResult&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Select__2_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0___1__">Generator.Select&lt;TSource, TResult&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_SkipAndTake__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_System_Int32_">Generator.SkipAndTake&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Skip__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_">Generator.Skip&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_SwitchAfter__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_RTCube_Extensions_Algorithms_IGenerator___0__">Generator.SwitchAfter&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int, IGenerator&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_SwitchWhen__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0_System_Boolean__RTCube_Extensions_Algorithms_IGenerator___0__">Generator.SwitchWhen&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, bool&gt;, IGenerator&lt;TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_TakeAndSkip__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_System_Int32_">Generator.TakeAndSkip&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_WhereWindow__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_System_Func___0___System_Boolean__">Generator.WhereWindow&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int, Func&lt;TSource[], bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Where__1_RTCube_Extensions_Algorithms_IGenerator___0__RTCube_Extensions_Algorithms_IGenerator_System_Boolean__">Generator.Where&lt;TSource&gt;(IGenerator&lt;TSource&gt;, IGenerator&lt;bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Where__1_RTCube_Extensions_Algorithms_IGenerator___0__RTCube_Extensions_Algorithms_IGenerator_System_Boolean__System_Int32_">Generator.Where&lt;T&gt;(IGenerator&lt;T&gt;, IGenerator&lt;bool&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Where__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0_System_Boolean__">Generator.Where&lt;TSource&gt;(IGenerator&lt;TSource&gt;, Func&lt;TSource, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Where__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Func___0_System_Boolean__System_Int32_">Generator.Where&lt;T&gt;(IGenerator&lt;T&gt;, Func&lt;T, bool&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.Algorithms.Generator.html#RTCube_Extensions_Algorithms_Generator_Window__1_RTCube_Extensions_Algorithms_IGenerator___0__System_Int32_">Generator.Window&lt;TSource&gt;(IGenerator&lt;TSource&gt;, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="RTCube.Extensions.ThrowHelper.html#RTCube_Extensions_ThrowHelper_ThrowIfNull_System_Object_System_String_">ThrowHelper.ThrowIfNull(object, string)</a>
+  </div>
+  </dd></dl>
+
+
+
+  <h2 id="RTCube_Extensions_Algorithms_IGenerator_1_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+Instances of <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html">IGenerator&lt;TResult&gt;</a> are usually obtained from the static methods in the
+<a class="xref" href="RTCube.Extensions.Algorithms.Generator.html">Generator</a>. See [Generators](../content/Generators.md) for more information.
+</p>
+<p>
+To correctly implement this interface:
+</p>
+<ul><li>A call to <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html#RTCube_Extensions_Algorithms_IGenerator_1_Current">Current</a> immediately after constructing the class 
+must give the first element of the generator. This is in contrast to 
+IEnumerator, where a call to <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_MoveNext">MoveNext()</a> must be made first.</li><li>Calls to <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html#RTCube_Extensions_Algorithms_IGenerator_1_Current">Current</a> must always give a valid element, no matter
+how many times <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_MoveNext">MoveNext()</a> has been called. Generators never end. </li><li>Calls to <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html#RTCube_Extensions_Algorithms_IGenerator_1_Current">Current</a> must always give the same value until the next 
+call to <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_MoveNext">MoveNext()</a> is made.</li><li>
+    <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_MoveNext">MoveNext()</a> must make all computations to generate the next element. In general, a private 
+variable holds the current value, is calculated in this method, and returned by Current. </li><li>Generators that are built from other generators must <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_CloneAndRestart">CloneAndRestart()</a> the generators and store 
+the clones. This ensures calls to <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_MoveNext">MoveNext()</a> in this generator won't affect elements generated by 
+a generated passed in as an argument in the constructor.</li><li>The generator must store all information needed to be able to 
+produce an equivalent generator in <a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_CloneAndRestart">CloneAndRestart()</a>. Generally, generators are equivalent when 
+they generate the same elements (in the same order). There are some exceptions, for example,
+unseeded random number generators. It is not necessary to 
+<a class="xref" href="RTCube.Extensions.Algorithms.IGenerator.html#RTCube_Extensions_Algorithms_IGenerator_CloneAndRestart">CloneAndRestart()</a> generators stored internally when creating a new instance of the generator, since
+that should be done in the constructor. </li></ul>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="RTCube_Extensions_Algorithms_IGenerator_1_Current_" data-uid="RTCube.Extensions.Algorithms.IGenerator`1.Current*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_IGenerator_1_Current" data-uid="RTCube.Extensions.Algorithms.IGenerator`1.Current">
+  Current
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/Generators.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the element last generated by this generator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TResult Current { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TResult</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RTCube_Extensions_Algorithms_IGenerator_1_CloneAndRestart_" data-uid="RTCube.Extensions.Algorithms.IGenerator`1.CloneAndRestart*"></a>
+
+  <h3 id="RTCube_Extensions_Algorithms_IGenerator_1_CloneAndRestart" data-uid="RTCube.Extensions.Algorithms.IGenerator`1.CloneAndRestart">
+  CloneAndRestart()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/Generators.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clones the generator and returns the clone in a restarted state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IGenerator&lt;out TResult&gt; CloneAndRestart()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RTCube.Extensions.Algorithms.IGenerator-1.html">IGenerator</a>&lt;TResult&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RuntimeCube/RTCubeExtensions/blob/main/Assets/RTCubeExtensions/Runtime/Algorithms/Generators.cs/#L75" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          RTCubeExtensions 文档
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -13,7 +13,11 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.13.5",
+		"@emotion/styled": "^11.13.5",
 		"@giscus/react": "^3.0.0",
+		"@mui/icons-material": "^6.1.10",
+		"@mui/material": "^6.1.10",
 		"@portabletext/to-html": "^2.0.13",
 		"@sanity/code-input": "^4.1.4",
 		"@sanity/dashboard": "^4.1.0",

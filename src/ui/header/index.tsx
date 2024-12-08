@@ -8,6 +8,7 @@ import Toggle from './Toggle'
 import RTSocialButtons from './RTSocialButtons'
 import { cn } from '@/lib/utils'
 import css from './Header.module.css'
+import NavigationNew from './NavigationNew'
 
 export default async function Header() {
 	const { title, logo, ctas } = await getSite()
@@ -42,7 +43,7 @@ export default async function Header() {
 					</Link>
 				</div>
 
-				<Navigation />
+				<NavigationNew />
 
 				{/* <CTAList
 					ctas={ctas}

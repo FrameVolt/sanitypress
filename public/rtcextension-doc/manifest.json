@@ -1,0 +1,1978 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://runtimecube.com/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://runtimecube.com/",
+    "changefreq": "weekly"
+  },
+  "source_base_path": "J:/UnityWorks/RTCubeExtensions/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.BufferExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.BufferExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.Capacity2Buffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.Capacity2Buffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.CollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.Combinatorial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.Combinatorial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ComparerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ComparerExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.Differentiator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.Differentiator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.DitherResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.DitherResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.Generator.AbstractGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.Generator.AbstractGenerator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.Generator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IBuffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IGenerator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IReadOnlyBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IReadOnlyBuffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IResizeableBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IResizeableBuffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IResponseCurve-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IResponseCurve-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.IndexPriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.IndexPriorityQueue-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.Integrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.Integrator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.LSystem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.LSystem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.PidController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.PidController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.RandomAccessPriorityQueue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.RandomAccessPriorityQueue-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.RandomAccessQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.RandomAccessQueue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveFloatSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveFloatSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveVector2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveVector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveVector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.ResponseCurveVector4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.RingBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.RingBuffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.StepResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.StepResponse-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.StepResponse.StepType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.StepResponse.StepType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.StepResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.StepResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Algorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Algorithms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.AssetLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.AssetLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Clock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Clock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ColorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ColorList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ColorList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ColorPopupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ColorPopupAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.CommentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.CommentAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.DiskCache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.DiskCache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.DummyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.DummyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.FixedSizeMemoryCache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.FixedSizeMemoryCache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.FloatList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.FloatList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.FpsCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.FpsCounter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.GameObjectExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Geometry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.HashPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.HashPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.HighlightAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.HighlightAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ICache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ICache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IInitializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IInitializable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IPoolObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IPoolObject-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IStateToken-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IStateToken-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ImageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ImageExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ImplementationFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ImplementationFactory-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ImplementationFactory-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ImplementationFactory-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ImplementationFactory-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ImplementationFactory-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ImplementationFactory-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ImplementationFactory-4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ImplementationFactory-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ImplementationFactory-5.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.InspectorButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.InspectorButtonAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.InspectorFlagsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.InspectorFlagsAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.InspectorList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.InspectorList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.InspectorList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.InspectorList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IntList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IntList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.IntPopupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.IntPopupAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.AbstractAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.AbstractAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.BinaryHeap.BinaryHeap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.BinaryHeap.BinaryHeap-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.BinaryHeap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.BinaryHeap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.EditorInternal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.EditorInternal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.ExperimentalAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.ExperimentalAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.FriendAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.FriendAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.HashFunctions.HashFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.HashFunctions.HashFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.HashFunctions.MurmurHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.HashFunctions.MurmurHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.HashFunctions.XXHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.HashFunctions.XXHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.HashFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.HashFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.HelpURLAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.HelpURLAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.ImmutableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.ImmutableAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.ChebychevDistanceFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.ChebychevDistanceFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.IDistanceFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.IDistanceFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.IntervalHeap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.IntervalHeap-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.KDNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.KDNode-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.KDTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.KDTree-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.ManhattanDistanceFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.ManhattanDistanceFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.MinHeap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.MinHeap-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.NearestNeighbour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.NearestNeighbour-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.SquareEuclideanDistanceFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.SquareEuclideanDistanceFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.KDTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.KDTree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.PrivateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.PrivateAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.TimedStateTracker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.TimedStateTracker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.VersionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.VersionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Internal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.LabelFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.LabelFieldAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.LayerPopupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.LayerPopupAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.LayeredCache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.LayeredCache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.LifeCycleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.LifeCycleEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.LifeCycleEventExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.LifeCycleEventExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MappingGameObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MappingGameObjectPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MinMaxFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MinMaxFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MinMaxInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MinMaxInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MinMaxRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MinMaxRangeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MonoBehaviourExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MonoBehaviourExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MonoBehaviourList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MonoBehaviourList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MonoBehaviourPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MonoBehaviourPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.MonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.MonoSingleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.NonNegativeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.NonNegativeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.NotImplementedByException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.NotImplementedByException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ObjectList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ObjectList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ObjectPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ObservedValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ObservedValue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Optional-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Optional-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Optional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Optional.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalGameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalGameObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalMonoBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalVector2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.OptionalVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.OptionalVector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Pool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Pool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PoolExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PoolExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PopupListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PopupListAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PopupListData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PopupListData-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PopupListData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PopupListData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PositiveAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PositiveAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PropertyDrawerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PropertyDrawerData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.PushdownAutomaton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.PushdownAutomaton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.RTCDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.RTCDebug.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.RTCMathf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.RTCMathf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.RTCMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.RTCMonoBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.RTCPlayerPrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.RTCPlayerPrefs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.RTCPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.RTCPool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.RTCRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.RTCRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ReadOnlyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ResourceNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ResourceNotFoundException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ScreenshotTaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ScreenshotTaker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.SeparatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.SeparatorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.SignalBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.SignalBus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Singleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Singleton.FindResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Singleton.FindResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Singleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Singleton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.SingletonSpawner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.SingletonSpawner-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.StateMachine-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.StateMachine-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.StateTracker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.StateTracker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.StringList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.StringList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.StringPopupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.StringPopupAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.Branding.Hex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.Branding.Hex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.Branding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.Branding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.DoesNotReturn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.DoesNotReturn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.MemberNotNullWhenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.MemberNotNullWhenAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.MustDisposeResourceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.MustDisposeResourceAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.PlaceHolderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.PlaceHolderAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.SuppressReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.SuppressReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.Warning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.Warning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Support.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Support.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.TagPopupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.TagPopupAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ThrowHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ThrowHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.TimedStateTracker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.TimedStateTracker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.TransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.TypeArgumentException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.TypeArgumentException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.UnityGameObjectPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.UnityGameObjectPool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.UnityGameObjectPoolGroups-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.UnityGameObjectPoolGroups-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.UnsafePool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.UnsafePool-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidateMatchRegularExpressionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidateMatchRegularExpressionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidateNotEmptyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidateNotEmptyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidateNotNegativeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidateNotNegativeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidateNotNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidateNotNullAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidateNotWhiteSpaceOrEmpty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidateNotWhiteSpaceOrEmpty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidatePositiveAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidatePositiveAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidateRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidateRangeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValidationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValidationAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValueSnapshot-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValueSnapshot-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.ValuesRetrievalMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.ValuesRetrievalMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Vector2List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Vector2List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Vector3List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Vector3List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.Vector4List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.Vector4List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.VectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.VectorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.WarningIfNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.WarningIfNullAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RTCube.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RTCube.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/coniunctis.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/coniunctis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/etiam.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/etiam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "resources/images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/images/logo_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/images/logo_new.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
