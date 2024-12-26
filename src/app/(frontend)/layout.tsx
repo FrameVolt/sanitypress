@@ -1,4 +1,3 @@
-// import { GoogleTagManager } from '@next/third-parties/google'
 import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import SkipToContent from '@/ui/SkipToContent'
 import Announcement from '@/ui/Announcement'
@@ -9,10 +8,10 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import '@/styles/app.css'
 import { Inter } from 'next/font/google'
-import { CacheProvider } from '@emotion/react'
+
 import createEmotionCache from '@/ui/components/createEmotionCache'
-import { ThemeProvider } from '@mui/material/styles'
-import CssBaseline from '@mui/material/CssBaseline'
+
+import { AuthWrapper } from '@/components/AuthWrapper'
 
 const inter = Inter({ subsets: ['latin'] })
 const clientSideEmotionCache = createEmotionCache()
@@ -27,17 +26,19 @@ export default async function RootLayout({
 			{/* <GoogleTagManager gtmId='' /> */}
 
 			<body className="bg-canvas text-ink">
-				<NuqsAdapter>
-					<SkipToContent />
-					<Announcement />
-					<Header />
-					<main id="main-content" tabIndex={-1}>
-						{children}
-					</main>
-					<Footer />
+				<AuthWrapper>
+					<NuqsAdapter>
+						<SkipToContent />
+						<Announcement />
+						<Header />
+						<main id="main-content" tabIndex={-1}>
+							{children}
+						</main>
+						<Footer />
 
-					<VisualEditingControls />
-				</NuqsAdapter>
+						<VisualEditingControls />
+					</NuqsAdapter>
+				</AuthWrapper>
 
 				<Analytics />
 				<SpeedInsights />

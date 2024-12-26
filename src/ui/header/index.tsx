@@ -2,17 +2,17 @@ import { getSite } from '@/sanity/lib/queries'
 import Wrapper from './Wrapper'
 import Link from 'next/link'
 import Img from '@/ui/Img'
-import Navigation from './Navigation'
-import CTAList from '@/ui/CTAList'
-import Toggle from './Toggle'
-import RTSocialButtons from './RTSocialButtons'
+import NavigationNew from './NavigationNew'
 import { cn } from '@/lib/utils'
 import css from './Header.module.css'
-import NavigationNew from './NavigationNew'
+import RTSocialButtons from './RTSocialButtons'
+import Toggle from './Toggle'
+import AuthButton from '@/components/AuthButton'
+
+// const AuthButton = dynamic(() => import('@/components/AuthButton'))
 
 export default async function Header() {
-	const { title, logo, ctas } = await getSite()
-
+	const { title, logo } = await getSite()
 	const logoImage = logo?.image?.dark || logo?.image?.default
 
 	return (
@@ -44,13 +44,11 @@ export default async function Header() {
 				</div>
 
 				<NavigationNew />
-
-				{/* <CTAList
-					ctas={ctas}
-					className="[grid-area:ctas] max-md:*:w-full max-md:header-closed:hidden md:ml-auto"
-				/> */}
-				<RTSocialButtons />
-				<Toggle />
+				<div className="flex items-center gap-4">
+					<RTSocialButtons />
+					<Toggle />
+					<AuthButton />
+				</div>
 			</div>
 		</Wrapper>
 	)
