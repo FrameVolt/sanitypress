@@ -9,7 +9,6 @@ const authingConfig = {
 	appHost: process.env.NEXT_PUBLIC_AUTHING_APP_HOST!,
 	redirectUri: process.env.NEXT_PUBLIC_AUTHING_REDIRECT_URI!,
 }
-console.log(authingConfig, 'https://upqlx7tfp1yj-demo.authing.cn')
 
 export function AuthWrapper({ children }: { children: ReactNode }) {
 	return (
@@ -17,6 +16,12 @@ export function AuthWrapper({ children }: { children: ReactNode }) {
 			appId={authingConfig.appId}
 			host={authingConfig.appHost}
 			redirectUri={authingConfig.redirectUri}
+			config={{
+				host: authingConfig.appHost,
+				isSSO: true,
+				defaultLoginMethod: 'password',
+				defaultRegisterMethod: 'email',
+			}}
 		>
 			{children}
 		</GuardProvider>

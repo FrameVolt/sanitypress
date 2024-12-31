@@ -9,8 +9,6 @@ import RTSocialButtons from './RTSocialButtons'
 import Toggle from './Toggle'
 import AuthButton from '@/components/AuthButton'
 
-// const AuthButton = dynamic(() => import('@/components/AuthButton'))
-
 export default async function Header() {
 	const { title, logo } = await getSite()
 	const logoImage = logo?.image?.dark || logo?.image?.default
@@ -47,7 +45,9 @@ export default async function Header() {
 				<div className="flex items-center gap-4">
 					<RTSocialButtons />
 					<Toggle />
-					<AuthButton />
+					<div suppressHydrationWarning>
+						<AuthButton />
+					</div>
 				</div>
 			</div>
 		</Wrapper>

@@ -1,6 +1,6 @@
 'use client'
 
-import { useGuard } from '@authing/guard-react18'
+import { JwtTokenStatus, useGuard, User } from '@authing/guard-react18'
 import { Button } from '@mui/material'
 import { useEffect, useState } from 'react'
 
@@ -20,23 +20,26 @@ export function AuthButton() {
 				setIsAuthenticated(false)
 			},
 		)
-		console.log('auth token 123', 123)
+		// guardEffect()
+		handleCallback()
 	}, [guard])
 
 	const handleLogin = () => {
-		guard.startWithRedirect()
+		guard.startWithRedirect({ responseMode: 'form_post' })
 	}
 
 	const handleLogout = async () => {
 		await guard.logout()
 		setIsAuthenticated(false)
 		setUserInfo(null)
+		localStorage.removeItem('_authing_token')
+		localStorage.removeItem('_authing_user')
 	}
 
 	if (isAuthenticated && userInfo) {
 		return (
 			<div className="flex items-center gap-2">
-				<span>{userInfo.username || userInfo.email}</span>
+				<span>{userInfo.phone || userInfo.email}</span>
 				<Button variant="outlined" onClick={handleLogout}>
 					退出
 				</Button>
@@ -44,9 +47,28 @@ export function AuthButton() {
 		)
 	}
 
+	const handleCallback = async () => {
+		try {
+			await guard.handleRedirectCallback()
+
+			const loginStatus: JwtTokenStatus | undefined =
+				await guard.checkLoginStatus()
+
+			if (!loginStatus) {
+				return console.error('Guard is not get login status')
+			}
+
+			const userInfo: User | null = await guard.trackSession()
+
+			window.location.reload()
+		} catch (e) {
+			// 登录失败，推荐再次跳转到登录页面
+			console.error('Guard handleAuthingLoginCallback error: ', e)
+		}
+	}
 	return (
 		<Button variant="contained" onClick={handleLogin}>
-			登录
+			登录/注册
 		</Button>
 	)
 }

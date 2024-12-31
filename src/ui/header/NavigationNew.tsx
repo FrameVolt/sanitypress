@@ -58,6 +58,15 @@ const Navigation = () => {
 			<Button href="/recommend-blog" className="rtcbutton">
 				推荐博客
 			</Button>
+
+			<Button
+				onClick={() => {
+					console.log('adsf')
+				}}
+				component="a"
+			>
+				价格
+			</Button>
 		</Toolbar>
 	)
 }
