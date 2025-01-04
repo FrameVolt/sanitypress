@@ -9,7 +9,7 @@ import {
 	projectInfoWidget,
 	projectUsersWidget,
 } from '@sanity/dashboard'
-import { sanitypressGuideWidget } from './src/sanity/sanitypressGuideWidget'
+// import { sanitypressGuideWidget } from './src/sanity/sanitypressGuideWidget'
 import { vercelWidget } from 'sanity-plugin-dashboard-widget-vercel'
 import { visionTool } from '@sanity/vision'
 import { codeInput } from '@sanity/code-input'
@@ -36,7 +36,7 @@ export default defineConfig({
 			widgets: [
 				projectInfoWidget(),
 				projectUsersWidget(),
-				sanitypressGuideWidget(),
+				// sanitypressGuideWidget(),
 			],
 		}),
 		visionTool(),
