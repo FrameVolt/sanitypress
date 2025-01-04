@@ -21,7 +21,7 @@ export function AuthButton() {
 			},
 		)
 		// guardEffect()
-		handleCallback()
+		// handleCallback()
 	}, [guard])
 
 	const handleLogin = () => {
