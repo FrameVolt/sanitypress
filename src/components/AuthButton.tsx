@@ -25,7 +25,8 @@ export function AuthButton() {
 	}, [guard])
 
 	const handleLogin = () => {
-		guard.startWithRedirect({ responseMode: 'form_post' })
+		// { responseMode: 'form_post' }
+		guard.startWithRedirect()
 	}
 
 	const handleLogout = async () => {
