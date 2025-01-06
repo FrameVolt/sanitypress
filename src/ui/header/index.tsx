@@ -8,6 +8,7 @@ import css from './Header.module.css'
 import RTSocialButtons from './RTSocialButtons'
 import Toggle from './Toggle'
 import AuthButton from '@/components/AuthButton'
+import AuthWrapper from '@/components/AuthWrapper'
 
 export default async function Header() {
 	const { title, logo } = await getSite()
@@ -45,9 +46,11 @@ export default async function Header() {
 				<div className="flex items-center gap-4">
 					<RTSocialButtons />
 					<Toggle />
-					<div suppressHydrationWarning>
-						<AuthButton />
-					</div>
+					<AuthWrapper>
+						<div suppressHydrationWarning>
+							<AuthButton />
+						</div>
+					</AuthWrapper>
 				</div>
 			</div>
 		</Wrapper>

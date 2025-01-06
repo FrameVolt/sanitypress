@@ -11,8 +11,6 @@ import { Inter } from 'next/font/google'
 
 import createEmotionCache from '@/ui/components/createEmotionCache'
 
-import { AuthWrapper } from '@/components/AuthWrapper'
-
 const inter = Inter({ subsets: ['latin'] })
 const clientSideEmotionCache = createEmotionCache()
 
@@ -26,19 +24,19 @@ export default async function RootLayout({
 			{/* <GoogleTagManager gtmId='' /> */}
 
 			<body className="bg-canvas text-ink">
-				<AuthWrapper>
-					<NuqsAdapter>
-						<SkipToContent />
-						<Announcement />
-						<Header />
-						<main id="main-content" tabIndex={-1}>
-							{children}
-						</main>
-						<Footer />
+				<NuqsAdapter>
+					<SkipToContent />
+					<Announcement />
 
-						<VisualEditingControls />
-					</NuqsAdapter>
-				</AuthWrapper>
+					<Header />
+
+					<main id="main-content" tabIndex={-1}>
+						{children}
+					</main>
+					<Footer />
+
+					<VisualEditingControls />
+				</NuqsAdapter>
 
 				<Analytics />
 				<SpeedInsights />
